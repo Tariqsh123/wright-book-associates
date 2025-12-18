@@ -333,7 +333,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
     padding: 50px 20px;
     gap: 10px;
 }
