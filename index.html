@@ -55,7 +55,10 @@
       <a href="#">About Us</a>
       <a href="#">Contact Us</a>
 
-      <a href="#" class="cta-btn"></a>
+      <a href="#" class="cta-btn">
+  <span class="arrow"></span>
+      </a>
+
     </nav>
 
   </div>
@@ -87,7 +90,9 @@ document.addEventListener('click', function () {
             <li>Affordable Pricing Plans</li>
             <li> 24/7 Friendly Support</li>
         </ul>
-        <a href="#" class="cta-btn"></a>
+        <a href="#" class="cta-btn">
+  <span class="arrow"></span>
+      </a>
     </div>
     <div class="hero-right-container">
         <img src="https://www.wrightbookassociates.co.uk/assets/images/book-cover-design-services/banner-right-img.webp" alt="">
@@ -98,9 +103,101 @@ document.addEventListener('click', function () {
  <section class="perfect-main-container">
     <h2>Cut Through the Crowded Shelves With Fantasy <span> Book Cover Designers</span> in UK</h2>
     <p>Born in 2010, Book Cover Designers is an award-winning and professional book cover design service from UK, specializing in creating bold and best book cover designs for clients. The delivered creative book covers resonate with your content genre, reflecting the uniqueness. These phenomenal book cover designs makes your product cut through the crowded shelves. The team of artistic book cover designers' masters in book cover illustrations to communicate your hot-selling idea, even before they have a read a word.</p>
-    <a href="" class="cta-btn"></a>
+    <a href="#" class="cta-btn">
+  <span class="arrow"></span>
+      </a>
     <img src="https://www.bookcoverdesigners.co.uk/frontend/images/other/awesome-books.webp" alt="">
  </section>
+
+<!-- Process Steps -->
+ <h2 class="process-main-heading">4 Steps To Design an Awesome Book Cover in UK</h2>
+<section class="process-main-container">
+  <div class="process-step active">
+    <div class="step-number">1</div>
+    <div class="step-heading">Discuss Your Design With Us</div>
+    <div class="step-text">
+      Share your thoughts with us, so we can discuss your unique book cover design details and take things forward. We listen carefully to your ideas, understand your target audience, and explore your preferred style, colors, and themes to ensure that the final design perfectly represents your vision.
+    </div>
+  </div>
+
+  <div class="process-step">
+    <div class="step-number">2</div>
+    <div class="step-heading">We'd Turn The Idea Into Design</div>
+    <div class="step-text">
+      By incorporating the brave creativity equation into your idea, our artistic designers transform your concept into a stunning visual design. We experiment with layouts, typography, imagery, and color schemes to create a bold and eye-catching cover that communicates your book’s essence even before the reader opens it.
+    </div>
+  </div>
+
+  <div class="process-step">
+    <div class="step-number">3</div>
+    <div class="step-heading">Skim Through The Design</div>
+    <div class="step-text">
+      A draft is shared with you for review, allowing you to skim through the design carefully. You can suggest any changes, provide feedback, or request modifications. We offer unlimited adjustments at this stage to make sure the design aligns perfectly with your expectations and reflects your book’s story authentically.
+    </div>
+  </div>
+
+  <div class="process-step">
+    <div class="step-number">4</div>
+    <div class="step-heading">Take The Final Delivery</div>
+    <div class="step-text">
+      Once the final design meets your satisfaction, we prepare the complete package for delivery. This includes high-resolution files for print and digital formats, ensuring your book cover is ready for publishing or marketing. We also provide guidance on using your cover effectively to attract readers and maximize your book’s impact.
+    </div>
+  </div>
+</section>
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  const steps = document.querySelectorAll('.process-step');
+  steps[0].classList.add('active');
+
+  steps.forEach(step => {
+    step.addEventListener('mouseenter', () => {
+      steps.forEach(s => s.classList.remove('active'));
+      step.classList.add('active');
+    });
+  });
+});
+</script>
+
+
+<!-- Mobile 4-Step Process Section -->
+<section id="mobile-process-section">
+  <div class="mobile-process-container">
+    <h2 class="mobile-process-title">4 Steps To Design an Awesome Book Cover in UK</h2>
+
+    <div class="mobile-process-step">
+      <div class="mobile-process-number">1</div>
+      <div class="mobile-process-content">
+        <h3>Discuss Your Design With Us</h3>
+        <p>Share your thoughts with us, so we can discuss your unique book cover design details and take things forward. We listen carefully to your ideas, understand your target audience, and explore your preferred style, colors, and themes to ensure that the final design perfectly represents your vision.</p>
+      </div>
+    </div>
+
+    <div class="mobile-process-step">
+      <div class="mobile-process-number">2</div>
+      <div class="mobile-process-content">
+        <h3>We'd Turn The Idea Into Design</h3>
+        <p>By incorporating the brave creativity equation into your idea, our artistic designers transform your concept into a stunning visual design. We experiment with layouts, typography, imagery, and color schemes to create a bold and eye-catching cover that communicates your book’s essence even before the reader opens it.</p>
+      </div>
+    </div>
+
+    <div class="mobile-process-step">
+      <div class="mobile-process-number">3</div>
+      <div class="mobile-process-content">
+        <h3>Skim Through The Design</h3>
+        <p>A draft is shared with you for review, allowing you to skim through the design carefully. You can suggest any changes, provide feedback, or request modifications. We offer unlimited adjustments at this stage to make sure the design aligns perfectly with your expectations and reflects your book’s story authentically.</p>
+      </div>
+    </div>
+
+    <div class="mobile-process-step">
+      <div class="mobile-process-number">4</div>
+      <div class="mobile-process-content">
+        <h3>Take The Final Delivery</h3>
+        <p>Once the final design meets your satisfaction, we prepare the complete package for delivery. This includes high-resolution files for print and digital formats, ensuring your book cover is ready for publishing or marketing. We also provide guidance on using your cover effectively to attract readers and maximize your book’s impact.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 </body>
