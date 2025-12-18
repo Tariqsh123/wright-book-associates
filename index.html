@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <img src="https://www.wrightbookassociates.co.uk/assets/images/logo.webp" alt="Logo">
+    </a>
+
+    <!-- Mobile Toggle -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation -->
+    <nav class="nav-menu">
+      <a href="#">Home</a>
+
+      <!-- Services Dropdown -->
+      <div class="dropdown" id="servicesDropdown">
+        <a href="javascript:void(0)" class="services-toggle">
+          Services <i class="fas fa-chevron-down"></i>
+        </a>
+
+        <div class="dropdown-menu">
+          <a href="#">Ghostwriting</a>
+          <a href="#">Ebook Writing</a>
+          <a href="#">Book Editing</a>
+          <a href="#">Book Cover Design</a>
+          <a href="#">Book Illustration</a>
+          <a href="#">Book Publishing</a>
+          <a href="#">Book Printing</a>
+          <a href="#">Book Marketing</a>
+          <a href="#">Author Website</a>
+          <a href="#">Book Video Trailer</a>
+          <a href="#">Audio Book</a>
+        </div>
+      </div>
+
+      <a href="#">Blog</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+
+      <a href="#" class="cta-btn"></a>
+    </nav>
+
+  </div>
+</header>
+
+
+<script>
+    const servicesToggle = document.querySelector('.services-toggle');
+const dropdown = document.getElementById('servicesDropdown');
+
+servicesToggle.addEventListener('click', function (e) {
+  e.stopPropagation();
+  dropdown.classList.toggle('open');
+});
+
+document.addEventListener('click', function () {
+  dropdown.classList.remove('open');
+});
+
+</script>
+
+<!-- Hero Section -->
+<section class="hero-main-section">
+    <div class="hero-left-container">
+        <h3>Turn Your Idea Into a Published Masterpiece</h3>
+        <h1><span class="yellow-color">Book Cover</span> Designers <span class="remove-boldness"> - A Home to Creative Minds</span></h1>
+        <p>We give your literary piece of art a perfect cover that enhances its charm and appeal. The readers will be compelled to pick up and start reading.</p>
+        <ul>
+            <li>Affordable Pricing Plans</li>
+            <li> 24/7 Friendly Support</li>
+        </ul>
+        <a href="#" class="cta-btn"></a>
+    </div>
+    <div class="hero-right-container">
+        <img src="https://www.wrightbookassociates.co.uk/assets/images/book-cover-design-services/banner-right-img.webp" alt="">
+    </div>
+</section>
+
+<!-- Perfect Section -->
+ <section class="perfect-main-container">
+    <h2>Cut Through the Crowded Shelves With Fantasy <span> Book Cover Designers</span> in UK</h2>
+    <p>Born in 2010, Book Cover Designers is an award-winning and professional book cover design service from UK, specializing in creating bold and best book cover designs for clients. The delivered creative book covers resonate with your content genre, reflecting the uniqueness. These phenomenal book cover designs makes your product cut through the crowded shelves. The team of artistic book cover designers' masters in book cover illustrations to communicate your hot-selling idea, even before they have a read a word.</p>
+    <a href="" class="cta-btn"></a>
+    <img src="https://www.bookcoverdesigners.co.uk/frontend/images/other/awesome-books.webp" alt="">
+ </section>
+
+
+</body>
+</html>
