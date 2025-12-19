@@ -461,107 +461,148 @@
 
 
 /* Whats */
-.what-main-contianer{
-    height: fit-content;
+/* ===== SECTION ===== */
+.what-section {
+  width: 100%;
+  padding: 60px 10px;
+  padding-top: 0;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.what-container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center; /* ✅ PC par center */
+  justify-content: space-between;
+  gap: 40px;
+  flex-direction: column;
+}
+
+/* ===== LEFT CARDS ===== */
+.what-left {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* ✅ 4 in one row */
+  gap: 20px;
+}
+
+/* ===== CARD DESIGN ===== */
+.what-card {
+  padding: 22px;
+  border-radius: 15px;
+  border: 1px solid #3459c1;
+  background: #000a65;
+  box-shadow:
+    0 4px 40px 15px rgba(184, 184, 184, .25),
+    0 0 55px #0d41b5 inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* ICON */
+.what-card img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* TITLE */
+.what-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* TEXT */
+.what-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #e2e6ff;
+  margin: 0;
+}
+
+/* ===== RIGHT CONTENT ===== */
+.what-right {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.what-right h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.what-right p {
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* BUTTON */
+.what-btn {
+  width: fit-content;
+  padding: 12px 28px;
+  background: #000a65;
+  color: #fff;
+  border: 1px solid #3459c1;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.what-btn:hover {
+  background: #0d41b5;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 991px) {
+  .what-container {
+    flex-direction: column;
+  }
+
+  .what-left,
+  .what-right {
     width: 100%;
-    display: flex;
-    justify-content: center;
+  }
+
+  .what-left {
+    grid-template-columns: repeat(2, 1fr); /* tablet */
+  }
+
+  .what-right {
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 50px 10px;
-    padding-top: 0;
-}
-.what-left-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 48%;
-    box-sizing: border-box;
-}
-
-.what-left-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-}
-
-.what-left-box i {
-    font-size: 24px;
-    color: #000C69; /* You can change the icon color */
-}
-
-.what-left-box h3 {
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 0;
-}
-
-.what-left-box p {
-    font-size: 0.95rem;
-    margin: 0;
-    color: #555;
-}
-
-/* Responsive for mobile */
-@media only screen and (max-width: 768px) {
-    .what-left-container {
-        grid-template-columns: 1fr;
-    }
-    .what-left-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    gap: 5px;
-}
+  }
 }
 
-.what-right-container{
-    height: fit-content;
-    width: 48%;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+@media (max-width: 575px) {
+    .what-section {
+    padding-top: 60px;
 }
-.what-right-container h2{
-    font-size: 35px;
-    font-weight: 700;
+
+  .what-left {
+    grid-template-columns: 1fr; /* mobile */
+  }
+  .what-card h3 {
     text-align: left;
 }
-.what-right-container p{
-    font-size: medium;
+
+/* TEXT */
+.what-card p {
     text-align: left;
 }
-@media only screen and (max-width: 991px) {
-    .what-main-contianer {
-        gap: 30px;
-        margin: 50px 0;
-    flex-direction: column;
-}
-.what-left-container {
-    width: 90%;
-}
-.what-right-container {
-    padding: 0px;
-    width: 90%;
-}
-}
-@media only screen and (max-width: 768px) {
-.what-right-container{
-    align-items: center;
-    gap: 20px;
-}
-.what-right-container h2{
-    text-align: center;
-}
-.what-right-container p{
-    text-align: center;
-}
+
 }
 
 /* Success Section */
@@ -687,4 +728,10 @@
     color: white;
     padding: 50px 0;
     padding-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+.services_sec2 .sec_right .combo_btn{
+    justify-content: center;
+    width: 100%;
 }
