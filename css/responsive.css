@@ -1,1 +1,2062 @@
-@media screen and (max-width:1600px){h1,h2{font-size:var(--font-size-lg);letter-spacing:-1px}:root{--font-size-base:16px;--font-size-lg:50px;--font-size-sm:14px}h1{line-height:65px}h2{line-height:55px}h3{font-size:35px;line-height:45px}h4{font-size:28px;line-height:32px}h6{font-size:22px;line-height:30px}p{font-size:var(--font-size-base);line-height:25px;letter-spacing:0}.sec_padding{padding:60px 0}.btn .text{width:150px;height:45px}.btn .text .wrap_text{width:100px;height:20px}.btn .icon{width:40px;height:45px}.btn .icon img{width:20px}.banner{padding:150px 0 350px}.banner .banner_left h1,.services_banner .banner_left h1{margin:15px 0 10px}.banner .banner_left h1 img{width:55px}.banner .banner_right .seller_badge{width:60px}.banner .banner_right .banner_right_book{width:150px}.banner .banner_right .up_arrow_icon{width:90px;top:160px;left:80px}.banner .banner_right .woman_img{width:300px;margin-left:unset;transform:translateX(125px) translateY(0)}.banner .banner_right .banner_right_shape{width:400px;bottom:40px;right:50px;z-index:-1}.banner .clock_tower_img{width:300px;top:60px;right:0;z-index:1}.banner::before{height:360px;bottom:0}.banner .banner_inner .sec_one_slider li.slick-slide{margin:0 10px}.banner .banner_inner li .box{width:100%;height:540px}.banner .banner_inner li .box img{width:100%;height:100%;object-fit:cover}.our_services{padding:60px 0 140px}.our_services .boxes .box h4 span{display:inline-block}.our_services .boxes .box p{height:95px}.about_us .sec_left.sec_padding{padding:151px 0 80px}.about_us .sec_right .woman-notebook img{width:450px}.about_us .sec_right .yellow-star-shape{width:450px;top:60%;left:35%;transform:translate(-50%,-50%) scale(1)}.about_us .sec_right .about-us-three-books{width:300px;bottom:0;left:-100px;transform:scale(1)}.about_us .sec_right .best-seller-book{width:250px;top:0;right:-50px;transform:scale(1) rotate(0);z-index:-2}.why-us .sec_right h2::before{width:100px}.masterpiece_sec .sec_content .box .content p,.why-us .sec_right p.para_1{height:100px}.services .sec_content .sec_left .my-tabs .img{width:100%;height:650px;border-radius:25px;overflow:hidden}.services .sec_content .sec_left .my-tabs .img img{width:100%;height:100%;object-fit:cover;object-position:center}.services .sec_content .sec_right .tabs .current .box .scroll_block{height:115px}.why_choose_us .sec_content .box span{font-size:120px;line-height:90px}.why_choose_us .sec_content .box h3{margin:10px 0}.our_specialities .sec_left p{margin:20px 0}.our_reviews .box{width:100%;height:550px;border-radius:30px}.our_reviews .box .content{width:95%;padding:10px;left:10px}.our_reviews .box h4{padding:10px}.our_reviews .our_reviews_slider .slick-slide.slick-current.slick-center .box h4{padding:0}.who_we_serve .sec_right .swiper .swiper-slide p.scroll_block{height:150px}.audio-book-services-page .ebook-process .sec_content .process-box>p,.faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button,body.book-publishing-services-page .ebook-process .sec_content .process-box>p{font-size:20px;line-height:25px}.get_started .marquee_text .marquee_slider li{font-size:50px;gap:20px}.book-cover-design-services-page .services_banner,.services_banner{padding:150px 0 80px}.author-website-services-page .services_banner .banner_right .banner_right_img,.book-marketing-services-page .services_banner .banner_right .banner_right_img,.book-printing-services-page .services_banner .banner_right .banner_right_img,.services_banner .banner_right .banner_right_img{transform:scale(1) translateX(0)}.about_us_banner::before,.contact_us_banner::before,.services_banner::before{content:"";width:100%;height:50px;bottom:-10px;box-shadow:0 0 70px 70px var(--light-color),inset 0 0 170px 170px var(--light-color)}.audio-book-services-page .services_sec2 .sec_left .img,.author-website-services-page .services_sec2 .sec_left .img,.author-website-services-page .services_sec4.extra_design .sec_right .img,.book-illustration-services-page .services_sec4.extra_design .sec_right .img,.book-marketing-services-page .services_sec2 .sec_left .img,.book-marketing-services-page .services_sec4.extra_design .sec_right .img,.book-printing-services-page .services_sec4.extra_design .sec_right .img,.book-publishing-services-page .services_sec4.extra_design .sec_right .img,.book-video-trailer-services-page .services_sec4.extra_design .sec_right .img,.services_sec2 .sec_left .img,.services_sec4.extra_design .sec_right .img{transform:scale(1) translate(0,0)}.about_us .sec_left h2::before,.about_us_about .sec_right h2::before,.contact_us .sec_top h2::before,.faqs .sec_left h2::before,.get_started .sec_right h2::before,.ghostwriter-section .sec_right h2::before,.masterpiece_sec .sec_top h2 .sub_title,.our_reviews .sec_top h2::before,.our_services .our_services_top h2::before,.our_specialities h2::before,.services .sec_top h2::before,.services_sec2 .sec_right h2 .sub_title,.services_sec4 .sec_left h2 .sub_title,.services_sec4.same_sec .sec_left h2 .sub_title,.who_we_serve .sec_left h2::before,.why-us .sec_right h2::before,.why_choose_us .sec_top h2 span.font-800::before{width:fit-content;height:25px;padding:0 10px;font-size:16px;line-height:25px;font-weight:600;letter-spacing:-1px}.our_reviews .sec_top h2::before,.our_services .our_services_top h2::before{top:-25px}.about_us .sec_left h2::before,.about_us_about .sec_right h2::before,.contact_us .sec_top h2::before,.faqs .sec_left h2::before,.get_started .sec_right h2::before,.ghostwriter-section .sec_right h2::before,.our_specialities h2::before,.services .sec_top h2::before,.services_sec4 .sec_left h2 .sub_title,.services_sec4.same_sec .sec_left h2 .sub_title,.who_we_serve .sec_left h2::before,.why-us .sec_right h2::before,.why_choose_us .sec_top h2 span.font-800::before,body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title{top:-15px}.masterpiece_sec .sec_top h2 .sub_title{top:-25px;left:50%;transform:rotate(-10deg) translateX(-50%)}.ebook-process .sec_content .process-box>p{font-size:32px;line-height:35px;width:450px;height:110px;transform:rotate(90deg) translate(193px,0)}body.book-publishing-services-page .ebook-process .sec_content .process-box.active>p{font-size:35px;line-height:35px}.ebook-process .sec_content .process-box{width:110px;height:550px}.book-publishing-services-page .services_sec2 .sec_left .img{transform:scale(1) translate(0,30px)}.services_sec4 .sec_left{padding:100px 0}.book-editing-services-page .banner_after{width:543px;bottom:0}.masterpiece_sec .sec_content{margin-top:10px}.about_us_banner,.contact_us_banner{padding:120px 0 80px}.about_us_banner .row,.contact_us_banner .row{align-items:center}.about_us_banner .banner_right .banner_right_img,.contact_us_banner .banner_right .banner_right_img{transform:scale(1);animation:2s linear infinite scaling}@keyframes scaling{0%,100%{transform:scale(1);filter:drop-shadow(2px 4px 6px black)}50%{transform:scale(.95);filter:drop-shadow(2px 4px 6px transparent)}}.about_us_writer .sec_top .custom-arrows{gap:25px;margin-top:30px}.about_us_writer .sec_top .custom-arrows button{width:70px;height:70px}.about_us_writer .sec_top .custom-arrows button img{width:100%;height:100%}.about_us_writer .sec_content{margin-top:40px}.contact_us_banner .banner_right .banner_right_shape{width:350px;left:-20px;bottom:-50px}.contact_us_banner .banner_right .banner_right_shape img{width:100%;height:100%;object-fit:contain}}@media screen and (max-width:1399px){h1,h2{letter-spacing:-1px}:root{--font-size-base:16px;--font-size-lg:50px;--font-size-medium:40px;--font-size-sm:14px}h1{font-size:var(--font-size-lg);line-height:55px}h2{font-size:var(--font-size-medium);line-height:45px}.audio-book-services-page .why_choose_us .sec_content .box h3,body.book-illustration-services-page .why_choose_us .sec_content .box h3,h3{font-size:30px;line-height:35px}h6,p{line-height:25px}h4{font-size:20px;line-height:30px}h6{font-size:18px}p{font-size:var(--font-size-base);letter-spacing:0}.about_us .sec_left.sec_padding,.sec_padding{padding:40px 0}.btn .text{width:120px;height:40px}.btn .text .wrap_text{width:100px;height:20px}.btn .icon{width:40px;height:40px}.btn .icon img{width:18px}header .navbar .logo{width:180px}.banner{padding:120px 0 250px}.banner .banner_left h6{font-weight:300;padding:0 10px}.banner .banner_left h1 img{width:45px}.banner .banner_inner .sec_one_slider .slick-slide{margin:0 10px}.banner .banner_inner,.banner .banner_inner .sec_one_slider .slick-slide .box{width:100%;height:340px;overflow:hidden}.banner .banner_inner .sec_one_slider .slick-slide .box img{width:100%;height:100%;object-fit:cover;object-position:center}.our_services .boxes .box p{height:75px}.our_services .boxes .box .img a{width:50px}.about_us .sec_right .woman-notebook img{width:320px}.about_us .sec_right .yellow-star-shape{width:400px}.about_us .sec_right .best-seller-book{width:180px;top:10px;right:-30px}.about_us .sec_right .about-us-three-books{width:250px;bottom:10px;left:-30px}.services .sec_content .sec_left .my-tabs .img{width:100%;height:580px;border-radius:25px;overflow:hidden}.services .sec_content{margin-top:10px}.why_choose_us .sec_content .box{width:540px}.why_choose_us .sec_content .box2.animate{left:565px}.why_choose_us .sec_content .box3.animate{top:320px;left:0;opacity:1;transform:translate(0,0)!important}.why_choose_us .sec_content .box4.animate{top:320px;left:565px;opacity:1;transform:translate(0,0)!important}.our_specialities .sec_right{gap:10px}.our_specialities .sec_right .box{width:100%}.contact_us .sec_top h2::before,.faqs .sec_left h2::before,.who_we_serve .sec_left h2::before,.why_choose_us .sec_top h2 span.font-800::before{top:-20px}.get_started .sec_right h2::before,.ghostwriter-section .sec_right h2::before,.our_reviews .sec_top h2::before,.our_specialities h2::before{top:-25px}.ghostwriter-section .sec_left .box_two h3{font-size:35px}.our_reviews .sec_content{margin-top:40px}.our_reviews .box{width:100%;height:450px;border-radius:30px}.our_reviews .box .content p{margin-bottom:50px}.our_reviews .box .client_info,.our_reviews .box h4{height:45px}.our_reviews .our_reviews_slider .slick-slide.slick-current.slick-center .box h4{bottom:50px}.our_reviews .box a.play_button{width:70px;height:70px}.our_reviews .our_reviews_slider .slick-slide.slick-current.slick-center .box:hover a.play_button{top:20%}.who_we_serve .sec_right .swiper{width:450px}.get_started .marquee_text .marquee_slider li{font-size:43px;gap:12px}.book-cover-design-services-page .services_banner,.services_banner{padding:120px 0 100px}.about_us_banner::before,.contact_us_banner::before,.services_banner::before{content:"";width:100%;height:40px;bottom:-10px;box-shadow:0 0 60px 70px var(--light-color),inset 0 0 170px 170px var(--light-color)}.services_banner .banner_right .banner_right_img{transform:scale(1) translateY(0)}.ebook-process .sec_content .process-box h2{font-size:70px;line-height:75px}.ebook-process .sec_content .process-box>p{transform:rotate(90deg) translate(175px,0)}.ebook-process .sec_content .process-box.active>p,body.book-publishing-services-page .ebook-process .sec_content .process-box.active>p{font-size:35px;line-height:35px}}@media screen and (max-width:1199px){h1,h2{letter-spacing:-1px}h6,p{letter-spacing:0}:root{--font-size-base:14px;--font-size-lg:45px;--font-size-medium:35px;--font-size-sm:14px}h1{font-size:var(--font-size-lg);line-height:50px}h2{font-size:var(--font-size-medium);line-height:40px}.audio-book-services-page .why_choose_us .sec_content .box h3,body.book-illustration-services-page .why_choose_us .sec_content .box h3,h3{font-size:22px;line-height:28px}h4,h6,p{line-height:22px}h4{font-size:18px}h6{font-size:16px;font-weight:500!important}p{font-size:var(--font-size-base)}.sec_padding{padding:40px 0}.about_us .sec_left h2::before,.about_us_about .sec_right h2::before,.contact_us .sec_top h2::before,.faqs .sec_left h2::before,.get_started .sec_right h2::before,.ghostwriter-section .sec_right h2::before,.masterpiece_sec .sec_top h2 .sub_title,.our_reviews .sec_top h2::before,.our_services .our_services_top h2::before,.our_specialities h2::before,.services .sec_top h2::before,.services_sec2 .sec_right h2 .sub_title,.services_sec4 .sec_left h2 .sub_title,.services_sec4.same_sec .sec_left h2 .sub_title,.who_we_serve .sec_left h2::before,.why-us .sec_right h2::before,.why_choose_us .sec_top h2 span.font-800::before{width:fit-content;height:25px;font-size:14px;padding:0 10px;line-height:25px;font-weight:400}header .navbar .logo{width:180px}.banner{padding:120px 0 250px}.banner::before{height:270px;bottom:0}.banner .banner_right .woman_img{width:300px;margin-left:unset;transform:translateX(60px) translateY(0)}.banner .banner_right .banner_right_book{width:120px}.banner .banner_right .seller_badge{width:50px;top:-40px;left:-20px}.banner .banner_right .banner_right_shape{width:350px;bottom:100px;right:0;z-index:-1}.banner .banner_right .up_arrow_icon{width:90px;top:125px;left:40px}.banner .clock_tower_img{width:200px;top:60px;right:-30px;z-index:-1}.banner .banner_inner,.banner .banner_inner .sec_one_slider .slick-slide .box{height:350px}.about_us .sec_right .img.woman-notebook{width:280px}.about_us .sec_right .yellow-star-shape{width:350px;z-index:-2}.about_us .sec_right .best-seller-book{width:140px;top:10px;right:0}.about_us .sec_right .about-us-three-books{width:200px;bottom:10px;left:-70px}.why-us .sec_right .box .content p{font-size:unset;line-height:unset;padding:0}.why-us .sec_right .box .content h6{margin:15px 0 10px}.services .sec_content .sec_right .tabs .current .box .scroll_block{height:115px}.services .sec_content .sec_right .tabs li .box p{font-size:unset;line-height:unset}.services .sec_content .sec_right .tabs li .box a{gap:10px;font-size:16px;font-weight:500}.services .sec_content .sec_right .tabs li .box a img{width:15px}.why_choose_us .sec_content{height:635px}.why_choose_us .sec_content .box{width:450px}.why_choose_us .sec_content .box2.animate,.why_choose_us .sec_content .box4.animate{left:480px}.why-us .sec_right p.para_1 span::before{width:15px;height:15px;top:4px}.why_choose_us .sec_content .box span{font-size:90px;line-height:90px}.ghostwriter-section .sec_left .box_two h3,.our_story .sec_content .box p{font-size:25px}.our_reviews .box .content p{height:135px}.who_we_serve .sec_right .swiper{width:400px}.who_we_serve .sec_right .swiper .swiper-slide p.scroll_block{margin:20px 0 15px;height:190px}.get_started .marquee_text .marquee_slider li{font-size:34px}.get_started .marquee_text .marquee_slider li img{width:36px}.our_specialities .sec_right .box p,footer .ft_menu ul li a{font-size:14px}footer .ft_menu ul li{font-size:14px;line-height:22px}footer .main_ft .sec_left p,footer .main_ft .sec_right p a{font-size:14px;font-weight:300}.our_specialities .swiper{width:265px;height:500px;margin:0}.our_specialities .swiper-slide{height:235px!important;margin:5px 0}.about_us_banner,.contact_us_banner{padding:120px 0 80px}.our_story .sec_content .box h5{font-size:75px;line-height:80px}.ebook-process .sec_content .process-box{width:110px;height:450px}.ebook-process .sec_content .process-box>p{font-size:25px;line-height:30px;width:340px;height:110px;transform:rotate(90deg) translate(115px,0);text-align:left}.ebook-process .sec_content .process-box.active>p{text-align:center}}@media screen and (max-width:991px){h1,h2{letter-spacing:-1px}h6,p{letter-spacing:0}.our_services .boxes .box h4,header .container{margin:0;padding:0}:root{--font-size-base:14px;--font-size-lg:35px;--font-size-medium:35px;--font-size-sm:14px}h1{font-size:var(--font-size-lg);line-height:35px}h2{font-size:var(--font-size-medium);line-height:40px}h3{font-size:20px;line-height:25px}h4,h6,p{line-height:22px}h4{font-size:17px}h6{font-size:14px;font-weight:300!important}p{font-size:var(--font-size-base)}.combo_btn,.ebook-process .sec_content{gap:10px}.btn .text{width:115px;height:40px}.banner .banner_right .banner_right_shape,.our_specialities .mySwiper2,header .navbar .main_menu .combo_btn,header .navbar ul li::before{display:none}header .container{max-width:100%}header .navbar{padding:10px 30px;flex-wrap:wrap}header .navbar .menu-toggle{width:30px;height:22px;position:relative;flex-direction:column;justify-content:space-between;display:block;cursor:pointer}header .navbar .menu-toggle span{display:block;height:3px;width:100%;background:var(--light-color);border-radius:2px;transition:.3s}header .navbar .menu-toggle span:first-child{transform:rotate(0) translateY(0)}header .navbar .menu-toggle span:nth-child(2){transform:rotate(0) translateY(5px)}header .navbar .menu-toggle span:nth-child(3){transform:rotate(0) translateY(10px)}header .navbar .menu-toggle.active span:first-child{transform:rotate(45deg) translateY(9px)}header .navbar .menu-toggle.active span:nth-child(2){opacity:0}header .navbar .menu-toggle.active span:nth-child(3){transform:rotate(-45deg) translateY(-9px)}header .navbar .main_menu{width:300px;height:100vh;transform:translateX(-300px);position:absolute;top:0;left:0;z-index:99;transition:var(--cubic)}header .navbar .main_menu.show{transform:translateX(0)}header .navbar ul{flex-direction:column;width:100%;height:100%;background:#288af6;backdrop-filter:blur(5px);box-shadow:0 0 50px #0d41b5 inset;gap:25px;padding:20px;transition:var(--cubic)}header .navbar ul.show{display:flex;align-items:flex-start}.who_we_serve .sec_right .swiper,header .navbar ul li{width:100%}header .navbar .menu-toggle i{color:var(--light-color);font-size:30px}header .navbar ul li.services_dropdown .dropdown{position:static;flex-direction:column;min-width:100%;height:0;opacity:1;transform:unset;pointer-events:auto;display:none;background:unset;backdrop-filter:unset;box-shadow:unset;flex-wrap:unset;border-radius:0;padding:0 10px 0 0;margin-top:10px;overflow-y:scroll}header .navbar ul li.services_dropdown .dropdown li{list-style:none;flex:unset}header .navbar ul li.services_dropdown.active .dropdown{display:flex;flex-direction:column;height:320px}.banner{padding:120px 0 160px}.banner .banner_left h1 img{width:35px}.banner .banner_right .banner_right_book{width:100px;left:-30px}.banner .banner_right .seller_badge{left:-50px}.banner .banner_right .woman_img{width:300px;transform:translateX(0) translateY(0)}.banner .banner_right .up_arrow_icon{width:60px;top:105px;left:10px}.banner .banner_inner,.banner .banner_inner .sec_one_slider .slick-slide .box{height:245px}.our_services .boxes .box p{height:95px;padding:0}.our_services .boxes .box .img a{top:-30px;right:10px}.about_us .sec_right .yellow-star-shape{width:300px;left:45%;z-index:-2}.about_us .sec_right .best-seller-book{right:-35px}.about_us .sec_right .about-us-three-books{width:140px;left:-20px}.why-us .sec_right p{margin:10px 0 0}.why-us .sec_right .box{margin-top:20px}.why-us .sec_right .box .content{padding:15px 10px}.why-us .sec_right .box .content p{font-size:12px;line-height:unset;padding:0}.services .sec_content .sec_right .tabs .current .box .scroll_block{height:120px}.services .sec_content .sec_right .tabs li .box p{font-size:12px;line-height:unset}.services .sec_content .sec_left .my-tabs .img{height:500px}.our_reviews .sec_top p span.break_line,.why_choose_us .sec_top p span.break_line{display:inline-block}.why_choose_us .sec_content .box{width:335px}.why_choose_us .sec_content .box2.animate,.why_choose_us .sec_content .box4.animate{left:360px}.why_choose_us .sec_content .box span{font-size:60px;line-height:60px;letter-spacing:-2.484px}.why_choose_us .sec_content .box3.animate,.why_choose_us .sec_content .box4.animate{top:310px}.our_specialities .swiper-slide{height:240px!important;margin:5px 0}.our_specialities .sec_right .box h6{font-size:20px;font-weight:700!important;margin:15px 0 5px}.our_specialities::before{height:30px}.our_specialities .sec_left p{margin:10px 0}.ghostwriter-section .sec_left .box{padding:20px 15px}.ghostwriter-section .sec_left .box .img{width:40px}.ghostwriter-section .sec_left .box h3{font-size:20px;margin:10px 0}.our_reviews .our_reviews_slider .slick-slide{transform:scale(.8)}.our_reviews .box .client_info{width:85px}.our_reviews .box .client_info img{width:20px}.who_we_serve .sec_right .swiper .swiper-slide .stars img{width:25px}.faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button.collapsed{padding-right:10px}.faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button{font-size:17px;line-height:22px;padding:10px 10px 0 0}.faqs .sec_right .accordion .accordion-item{padding-left:30px}.faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button::after{top:10px;left:-25px}.get_started .marquee_text .marquee_slider li{font-size:27px}.get_started .marquee_text{margin-bottom:30px}.ebook-process .sec_content .process-box{width:70px;height:350px}.ebook-process .sec_content .process-box.active{width:500px;gap:10px;padding:10px;border-radius:25px}.ebook-process .sec_content .process-box h2{font-size:50px;line-height:55px}.ebook-process .sec_content .process-box.active>p,body.book-publishing-services-page .ebook-process .sec_content .process-box.active>p{font-size:25px;line-height:30px}.ebook-process .sec_content .process-box>p{font-size:18px;line-height:25px;width:270px;height:45px;transform:rotate(90deg) translate(110px,0);text-align:left}.ebook-process .sec_content .process-box.active .box-content p{opacity:.8;height:180px}.services_sec2 .sec_right,.services_sec4 .sec_left{padding:40px 0}.audio-book-services-page .why_choose_us .sec_content .box h3,body.book-illustration-services-page .why_choose_us .sec_content .box h3{font-size:18px;line-height:25px}.our_story .sec_content .box{border-radius:20px;padding:20px 0 20px 35px}.our_story .sec_content .box h5{font-size:40px;line-height:45px}.our_story .sec_content .box p{font-size:16px;line-height:25px}.our_story .sec_content .box .img{width:40px;top:0;left:-10px}.our_story .sec_content .combo_btn{margin-top:80px;justify-content:center}.book-editing-services-page .banner_after{width:350px;bottom:30px}.masterpiece_sec .sec_content .box .img{width:50%}.masterpiece_sec .sec_content .box .content{width:300px;border-radius:18px;padding:20px}.masterpiece_sec .sec_content .box .content p{font-size:12px;line-height:20px;height:100px}.masterpiece_sec .sec_content .box.bottom_box .img{margin-left:auto}}@media screen and (max-width:767px){h6{font-size:18px;line-height:22px;letter-spacing:0;font-weight:700!important}.about_us .sec_left h2::before,.about_us_about .sec_right h2::before,.contact_us .sec_top h2::before,.faqs .sec_left h2::before,.get_started .sec_right h2::before,.ghostwriter-section .sec_right h2::before,.our_specialities h2::before,.services .sec_top h2::before,.services_sec4 .sec_left h2 .sub_title,.services_sec4.same_sec .sec_left h2 .sub_title,.who_we_serve .sec_left h2::before,.why-us .sec_right h2::before,.why_choose_us .sec_top h2 span.font-800::before,body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title{top:-20px}.about_us .sec_right .about-us-three-books,.about_us .sec_right .best-seller-book,.about_us .sec_right .yellow-star-shape,.banner .banner_right .banner_right_book,.banner .banner_right .seller_badge,.banner .banner_right .up_arrow_icon,.contact_us_banner .banner_right .banner_right_shape,.ghostwriter-section.sm-none,.our_services.sm-none,.our_specialities::before{display:none}.banner .clock_tower_img{width:200px;top:unset;bottom:250px;right:-30px;z-index:-1}.banner .banner_right,.services_banner .banner_right,.why-us .sec_right{margin-top:40px}.banner .banner_right .woman_img{width:300px;transform:translateX(0) translateY(0);margin-left:auto}.ghostwriter-section.md-none,.our_services.md-none,.our_specialities .mySwiper2,.why_choose_us.md-none{display:block}.our_services .boxes .box{opacity:1;transform:unset;margin-top:25px}.about_us .sec_right .img.woman-notebook{width:280px;margin-left:auto}.why-us .sec_left .img{width:200px;margin:0 auto}.about_us_about .sec_right,.faqs .sec_right,.masterpiece_sec .sec_content .box,.our_story .sec_content .combo_btn,.services .sec_content .sec_right,footer .main_ft{margin-top:25px}.services .sec_content .row{flex-direction:column-reverse;gap:25px}.break_line,.services .sec_top h2 span.break_line{display:inline-block}.services .sec_content .sec_left .my-tabs .img{width:50%;height:310px}.services .sec_content .sec_right .tabs .current .box .scroll_block{height:85px}.masterpiece_sec .sec_content .box .content p,.why_choose_us .sec_content{height:unset}.why_choose_us .sec_content .box{width:100%;position:relative;opacity:1;top:unset;left:unset}.why_choose_us .sec_content .box p{height:unset;opacity:.7}.our_specialities .sec_right{position:relative}.our_specialities .sec_right::before{content:"";width:100%;height:50px;background:0 0;box-shadow:inset 0 0 30px 30px #ffc902d1,0 0 30px 20px #ffc902d1;position:absolute;top:0;left:0;z-index:2}.our_specialities .swiper-slide{height:220px!important}.ghostwriter-section .row{flex-direction:column-reverse}.ghostwriter-section .sec_left{margin-top:25px;gap:25px}.ghostwriter-section .sec_left .box{transform:unset}.ghostwriter-section .sec_right{padding:0!important}.our_reviews .box{height:500px}.who_we_serve .sec_right .swiper .swiper-slide p.scroll_block{margin:20px 0 15px;height:225px}.who_we_serve .sec_right .swiper{width:70%;padding:50px 0 0}.faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button.collapsed::after{top:15px}.get_started .marquee_text .marquee_slider li{font-size:20px;gap:16px}.get_started .marquee_text .marquee_slider li img{width:20px}.contact_us .sec_left ul.info,.contact_us .sec_left ul.social_link{margin:15px 0 30px}.contact_us .sec_right{margin-top:30px}.contact_us .sec_right form .submit_btn input[type=submit]{width:120px;height:40px}footer{padding:40px 0 10px}footer .ft_menu.ft_services{margin:30px 0}footer .ft_menu ul{margin-top:0}footer .main_ft{padding:10px 0 0}footer .main_ft .sec_left p{text-align:center}footer .main_ft .sec_right p{justify-content:center}.services_banner .banner_right .banner_right_img{transform:scale(1) translateY(0);width:300px;margin:0 auto}.services_sec2{padding:40px 0}.author-website-services-page .services_sec4 .sec_right .img,.book-illustration-services-page .services_sec4 .sec_right .img,.book-marketing-services-page .services_sec4 .sec_right .img,.book-printing-services-page .services_sec4 .sec_right .img,.book-publishing-services-page .services_sec4 .sec_right .img,.book-video-trailer-services-page .services_sec4 .sec_right .img,.services_sec4 .sec_right .img{transform:scale(1) translate(0,0);width:300px}.our_services .boxes .box{padding:25px 10px 10px}.our_services .boxes .box p{height:unset;padding:0}.our_services .boxes .box .img{width:100%;height:250px}.our_services .boxes .box .img .book_img{width:100%;height:100%;object-fit:cover;object-position:center bottom}.about_us_about .sec_left .about_left_img,.audio-book-services-page .services_sec2 .sec_left .img,.author-website-services-page .services_sec2 .sec_left .img,.book-marketing-services-page .services_sec2 .sec_left .img,.services_sec2 .sec_left .img{width:300px}.book-editing-services-page .banner_after{width:300px;margin-left:auto;bottom:0;position:unset}.about_us_banner,.services_banner{padding:120px 0 40px}.contact_us_banner .banner_left h6,.services_banner .banner_left h6{font-size:14px;font-weight:300!important;padding:0 5px}.masterpiece_sec .sec_content .box .img{width:250px}.masterpiece_sec .sec_content .box .content{width:350px;border-radius:15px;padding:25px 15px}.masterpiece_sec .sec_content .box.bottom_box .img{margin-left:auto}.contact_us_banner{padding:120px 0 80px}.about_us_banner .banner_right .banner_right_img,.contact_us_banner .banner_right .banner_right_img{width:300px;margin-left:auto}.about_us_about .sec_left .yellow_star_shape{width:300px;top:-35px;left:-50px}.our_story .sec_content #counter{gap:40px}.our_story .sec_content .box .img{width:30px;top:0;left:-7px}.privacy-policy{padding:100px 0 60px}}@media screen and (max-width:575px){h4,h6,p{line-height:22px}h1,h2,h6,p{letter-spacing:0}:root{--font-size-base:14px;--font-size-lg:25px;--font-size-medium:25px;--font-size-sm:14px}h1{font-size:var(--font-size-lg);line-height:25px}h2{font-size:var(--font-size-medium);line-height:30px}h3{font-size:20px;line-height:25px}h4{font-size:17px}h6{font-size:14px;font-weight:300!important}p{font-size:var(--font-size-base)}.break_line{display:inline-block}.btn .text{width:100px;height:40px}.btn .icon{width:33px;height:40px}.about_us .sec_left h2::before,.faqs .sec_left h2::before,.get_started .sec_right h2::before,.ghostwriter-section .sec_right h2::before,.services .sec_top h2::before,.who_we_serve .sec_left h2::before,.why-us .sec_right h2::before{left:-10px}header .navbar{padding:10px;flex-wrap:wrap}header .navbar .main_menu{width:250px}.about_us_banner .banner_left h6,.banner .banner_left h6,.contact_us_banner .banner_left h6,.services_banner .banner_left h6{font-size:11px;font-weight:300!important;padding:5px;gap:5px}.banner .banner_left h1 img{width:25px}.banner .banner_right .woman_img{width:180px}.banner .banner_inner,.banner .banner_inner .sec_one_slider .slick-slide .box{height:210px}.about_us .sec_right .img.woman-notebook{width:200px}.services .sec_content .sec_left .my-tabs .img{width:100%;height:310px}.services .sec_content .sec_right .tabs .current .box .scroll_block{height:120px}.our_specialities .mySwiper2{display:none}.our_specialities .swiper{width:100%}.our_reviews .box{height:400px}.who_we_serve .sec_right .swiper{width:100%;padding:50px 0 0}.get_started .marquee_text .marquee_slider li{font-size:11px;font-weight:400;letter-spacing:0;gap:12px}.get_started .marquee_text{margin-bottom:0}.get_started .sec_right{margin-top:25px}.ebook-process .sec_content{flex-direction:column}.ebook-process .sec_content .process-box{width:100%;height:150px;border-radius:14px;padding:0;justify-content:center;align-items:center}.ebook-process .sec_content .process-box.active{width:100%;height:340px}.ebook-process .sec_content .process-box>p{font-size:18px;line-height:25px;width:100%;height:unset;transform:unset;text-align:center;justify-content:center}.about_us .sec_left h2::before,.about_us_about .sec_right h2::before,.contact_us .sec_top h2::before,.faqs .sec_left h2::before,.get_started .sec_right h2::before,.ghostwriter-section .sec_right h2::before,.masterpiece_sec .sec_top h2 .sub_title,.our_reviews .sec_top h2::before,.our_services .our_services_top h2::before,.our_specialities h2::before,.services .sec_top h2::before,.services_sec2 .sec_right h2 .sub_title,.services_sec4 .sec_left h2 .sub_title,.services_sec4.same_sec .sec_left h2 .sub_title,.who_we_serve .sec_left h2::before,.why-us .sec_right h2::before,.why_choose_us .sec_top h2 span.font-800::before,body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title{top:-25px;z-index:-2}.who_we_serve .sec_right .swiper .swiper-slide p.scroll_block{margin:20px 0 15px;height:175px}.who_we_serve .sec_right .swiper .swiper-slide{padding:25px 15px}.why-us .sec_right p.para_1{height:unset}.masterpiece_sec .sec_content .box .content{width:290px}}
+@media screen and (max-width:1600px) {
+
+    h1,
+    h2 {
+        font-size: var(--font-size-lg);
+        letter-spacing: -1px
+    }
+
+    :root {
+        --font-size-base: 16px;
+        --font-size-lg: 50px;
+        --font-size-sm: 14px
+    }
+
+    h1 {
+        line-height: 65px
+    }
+
+    h2 {
+        line-height: 55px
+    }
+
+    h3 {
+        font-size: 35px;
+        line-height: 45px
+    }
+
+    h4 {
+        font-size: 28px;
+        line-height: 32px
+    }
+
+    h6 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    p {
+        font-size: var(--font-size-base);
+        line-height: 25px;
+        letter-spacing: 0
+    }
+
+    .sec_padding {
+        padding: 60px 0
+    }
+
+    .btn .text {
+        width: 150px;
+        height: 45px
+    }
+
+    .btn .text .wrap_text {
+        width: 100px;
+        height: 20px
+    }
+
+    .btn .icon {
+        width: 40px;
+        height: 45px
+    }
+
+    .btn .icon img {
+        width: 20px
+    }
+
+    .banner {
+        padding: 150px 0 350px
+    }
+
+    .banner .banner_left h1,
+    .services_banner .banner_left h1 {
+        margin: 15px 0 10px;
+    }
+
+    .banner .banner_left h1 img {
+        width: 55px
+    }
+
+    .banner .banner_right .seller_badge {
+        width: 60px
+    }
+
+    .banner .banner_right .banner_right_book {
+        width: 150px
+    }
+
+    .banner .banner_right .up_arrow_icon {
+        width: 90px;
+        top: 160px;
+        left: 80px
+    }
+
+    .banner .banner_right .woman_img {
+        width: 300px;
+        margin-left: unset;
+        transform: translateX(125px) translateY(0)
+    }
+
+    .banner .banner_right .banner_right_shape {
+        width: 400px;
+        bottom: 40px;
+        right: 50px;
+        z-index: -1
+    }
+
+    .banner .clock_tower_img {
+        width: 300px;
+        top: 60px;
+        right: 0;
+        z-index: 1
+    }
+
+    .banner::before {
+        height: 360px;
+        bottom: 0
+    }
+
+    .banner .banner_inner .sec_one_slider li.slick-slide {
+        margin: 0 10px
+    }
+
+    .banner .banner_inner li .box {
+        width: 100%;
+        height: 540px
+    }
+
+    .banner .banner_inner li .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+
+    .our_services {
+        padding: 60px 0 140px
+    }
+
+    .our_services .boxes .box h4 span {
+        display: inline-block
+    }
+
+    .our_services .boxes .box p {
+        height: 95px
+    }
+
+    .about_us .sec_left.sec_padding {
+        padding: 151px 0 80px
+    }
+
+    .about_us .sec_right .woman-notebook img {
+        width: 450px
+    }
+
+    .about_us .sec_right .yellow-star-shape {
+        width: 450px;
+        top: 60%;
+        left: 35%;
+        transform: translate(-50%, -50%) scale(1)
+    }
+
+    .about_us .sec_right .about-us-three-books {
+        width: 300px;
+        bottom: 0;
+        left: -100px;
+        transform: scale(1)
+    }
+
+    .about_us .sec_right .best-seller-book {
+        width: 250px;
+        top: 0;
+        right: -50px;
+        transform: scale(1) rotate(0);
+        z-index: -2
+    }
+
+    .why-us .sec_right h2::before {
+        width: 100px
+    }
+
+    .masterpiece_sec .sec_content .box .content p,
+    .why-us .sec_right p.para_1 {
+        height: 100px
+    }
+
+    .services .sec_content .sec_left .my-tabs .img {
+        width: 100%;
+        height: 650px;
+        border-radius: 25px;
+        overflow: hidden
+    }
+
+    .services .sec_content .sec_left .my-tabs .img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center
+    }
+
+    .services .sec_content .sec_right .tabs .current .box .scroll_block {
+        height: 115px
+    }
+
+    .why_choose_us .sec_content .box span {
+        font-size: 120px;
+        line-height: 90px
+    }
+
+    .why_choose_us .sec_content .box h3 {
+        margin: 10px 0
+    }
+
+    .our_specialities .sec_left p {
+        margin: 20px 0
+    }
+
+    .our_reviews .box {
+        width: 100%;
+        height: 550px;
+        border-radius: 30px
+    }
+
+    .our_reviews .box .content {
+        width: 95%;
+        padding: 10px;
+        left: 10px
+    }
+
+    .our_reviews .box h4 {
+        padding: 10px
+    }
+
+    .our_reviews .our_reviews_slider .slick-slide.slick-current.slick-center .box h4 {
+        padding: 0
+    }
+
+    .who_we_serve .sec_right .swiper .swiper-slide p.scroll_block {
+        height: 150px
+    }
+
+    .audio-book-services-page .ebook-process .sec_content .process-box>p,
+    .faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button,
+    body.book-publishing-services-page .ebook-process .sec_content .process-box>p {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .get_started .marquee_text .marquee_slider li {
+        font-size: 50px;
+        gap: 20px
+    }
+
+    .book-cover-design-services-page .services_banner,
+    .services_banner {
+        padding: 150px 0 80px
+    }
+
+    .author-website-services-page .services_banner .banner_right .banner_right_img,
+    .book-marketing-services-page .services_banner .banner_right .banner_right_img,
+    .book-printing-services-page .services_banner .banner_right .banner_right_img,
+    .services_banner .banner_right .banner_right_img {
+        transform: scale(1) translateX(0)
+    }
+
+    .about_us_banner::before,
+    .contact_us_banner::before,
+    .services_banner::before {
+        content: "";
+        width: 100%;
+        height: 50px;
+        bottom: -10px;
+        box-shadow: 0 0 70px 70px var(--light-color), inset 0 0 170px 170px var(--light-color)
+    }
+
+    .audio-book-services-page .services_sec2 .sec_left .img,
+    .author-website-services-page .services_sec2 .sec_left .img,
+    .author-website-services-page .services_sec4.extra_design .sec_right .img,
+    .book-illustration-services-page .services_sec4.extra_design .sec_right .img,
+    .book-marketing-services-page .services_sec2 .sec_left .img,
+    .book-marketing-services-page .services_sec4.extra_design .sec_right .img,
+    .book-printing-services-page .services_sec4.extra_design .sec_right .img,
+    .book-publishing-services-page .services_sec4.extra_design .sec_right .img,
+    .book-video-trailer-services-page .services_sec4.extra_design .sec_right .img,
+    .services_sec2 .sec_left .img,
+    .services_sec4.extra_design .sec_right .img {
+        transform: scale(1) translate(0, 0)
+    }
+
+    .about_us .sec_left h2::before,
+    .about_us_about .sec_right h2::before,
+    .contact_us .sec_top h2::before,
+    .faqs .sec_left h2::before,
+    .get_started .sec_right h2::before,
+    .ghostwriter-section .sec_right h2::before,
+    .masterpiece_sec .sec_top h2 .sub_title,
+    .our_reviews .sec_top h2::before,
+    .our_services .our_services_top h2::before,
+    .our_specialities h2::before,
+    .services .sec_top h2::before,
+    .services_sec2 .sec_right h2 .sub_title,
+    .services_sec4 .sec_left h2 .sub_title,
+    .services_sec4.same_sec .sec_left h2 .sub_title,
+    .who_we_serve .sec_left h2::before,
+    .why-us .sec_right h2::before,
+    .why_choose_us .sec_top h2 span.font-800::before {
+        width: fit-content;
+        height: 25px;
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 600;
+        letter-spacing: -1px
+    }
+
+    .our_reviews .sec_top h2::before,
+    .our_services .our_services_top h2::before {
+        top: -25px
+    }
+
+    .about_us .sec_left h2::before,
+    .about_us_about .sec_right h2::before,
+    .contact_us .sec_top h2::before,
+    .faqs .sec_left h2::before,
+    .get_started .sec_right h2::before,
+    .ghostwriter-section .sec_right h2::before,
+    .our_specialities h2::before,
+    .services .sec_top h2::before,
+    .services_sec4 .sec_left h2 .sub_title,
+    .services_sec4.same_sec .sec_left h2 .sub_title,
+    .who_we_serve .sec_left h2::before,
+    .why-us .sec_right h2::before,
+    .why_choose_us .sec_top h2 span.font-800::before,
+    body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title {
+        top: -15px
+    }
+
+    .masterpiece_sec .sec_top h2 .sub_title {
+        top: -25px;
+        left: 50%;
+        transform: rotate(-10deg) translateX(-50%)
+    }
+
+    .ebook-process .sec_content .process-box>p {
+        font-size: 32px;
+        line-height: 35px;
+        width: 450px;
+        height: 110px;
+        transform: rotate(90deg) translate(193px, 0)
+    }
+
+    body.book-publishing-services-page .ebook-process .sec_content .process-box.active>p {
+        font-size: 35px;
+        line-height: 35px
+    }
+
+    .ebook-process .sec_content .process-box {
+        width: 110px;
+        height: 550px
+    }
+
+    .book-publishing-services-page .services_sec2 .sec_left .img {
+        transform: scale(1) translate(0, 30px)
+    }
+
+    .services_sec4 .sec_left {
+        padding: 100px 0
+    }
+
+    .book-editing-services-page .banner_after {
+        width: 543px;
+        bottom: 0
+    }
+
+    .masterpiece_sec .sec_content {
+        margin-top: 10px
+    }
+
+    .about_us_banner,
+    .contact_us_banner {
+        padding: 120px 0 80px
+    }
+
+    .about_us_banner .row,
+    .contact_us_banner .row {
+        align-items: center
+    }
+
+    .about_us_banner .banner_right .banner_right_img,
+    .contact_us_banner .banner_right .banner_right_img {
+        transform: scale(1);
+        animation: 2s linear infinite scaling
+    }
+
+    @keyframes scaling {
+
+        0%,
+        100% {
+            transform: scale(1);
+            filter: drop-shadow(2px 4px 6px black)
+        }
+
+        50% {
+            transform: scale(.95);
+            filter: drop-shadow(2px 4px 6px transparent)
+        }
+    }
+
+    .about_us_writer .sec_top .custom-arrows {
+        gap: 25px;
+        margin-top: 30px
+    }
+
+    .about_us_writer .sec_top .custom-arrows button {
+        width: 70px;
+        height: 70px
+    }
+
+    .about_us_writer .sec_top .custom-arrows button img {
+        width: 100%;
+        height: 100%
+    }
+
+    .about_us_writer .sec_content {
+        margin-top: 40px
+    }
+
+    .contact_us_banner .banner_right .banner_right_shape {
+        width: 350px;
+        left: -20px;
+        bottom: -50px
+    }
+
+    .contact_us_banner .banner_right .banner_right_shape img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain
+    }
+}
+
+@media screen and (max-width:1399px) {
+
+    h1,
+    h2 {
+        letter-spacing: -1px
+    }
+
+    :root {
+        --font-size-base: 16px;
+        --font-size-lg: 50px;
+        --font-size-medium: 40px;
+        --font-size-sm: 14px
+    }
+
+    h1 {
+        font-size: var(--font-size-lg);
+        line-height: 55px
+    }
+
+    h2 {
+        font-size: var(--font-size-medium);
+        line-height: 45px
+    }
+
+    .audio-book-services-page .why_choose_us .sec_content .box h3,
+    body.book-illustration-services-page .why_choose_us .sec_content .box h3,
+    h3 {
+        font-size: 30px;
+        line-height: 35px
+    }
+
+    h6,
+    p {
+        line-height: 25px
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    h6 {
+        font-size: 18px
+    }
+
+    p {
+        font-size: var(--font-size-base);
+        letter-spacing: 0
+    }
+
+    .about_us .sec_left.sec_padding,
+    .sec_padding {
+        padding: 40px 0
+    }
+
+    .btn .text {
+        width: 120px;
+        height: 40px
+    }
+
+    .btn .text .wrap_text {
+        width: 100px;
+        height: 20px
+    }
+
+    .btn .icon {
+        width: 40px;
+        height: 40px
+    }
+
+    .btn .icon img {
+        width: 18px
+    }
+
+    header .navbar .logo {
+        width: 180px
+    }
+
+    .banner {
+        padding: 120px 0 250px
+    }
+
+    .banner .banner_left h6 {
+        font-weight: 300;
+        padding: 0 10px
+    }
+
+    .banner .banner_left h1 img {
+        width: 45px
+    }
+
+    .banner .banner_inner .sec_one_slider .slick-slide {
+        margin: 0 10px
+    }
+
+    .banner .banner_inner,
+    .banner .banner_inner .sec_one_slider .slick-slide .box {
+        width: 100%;
+        height: 340px;
+        overflow: hidden
+    }
+
+    .banner .banner_inner .sec_one_slider .slick-slide .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center
+    }
+
+    .our_services .boxes .box p {
+        height: 75px
+    }
+
+    .our_services .boxes .box .img a {
+        width: 50px
+    }
+
+    .about_us .sec_right .woman-notebook img {
+        width: 320px
+    }
+
+    .about_us .sec_right .yellow-star-shape {
+        width: 400px
+    }
+
+    .about_us .sec_right .best-seller-book {
+        width: 180px;
+        top: 10px;
+        right: -30px
+    }
+
+    .about_us .sec_right .about-us-three-books {
+        width: 250px;
+        bottom: 10px;
+        left: -30px
+    }
+
+    .services .sec_content .sec_left .my-tabs .img {
+        width: 100%;
+        height: 580px;
+        border-radius: 25px;
+        overflow: hidden
+    }
+
+    .services .sec_content {
+        margin-top: 10px
+    }
+
+    .why_choose_us .sec_content .box {
+        width: 540px
+    }
+
+    .why_choose_us .sec_content .box2.animate {
+        left: 565px
+    }
+
+    .why_choose_us .sec_content .box3.animate {
+        top: 320px;
+        left: 0;
+        opacity: 1;
+        transform: translate(0, 0) !important
+    }
+
+    .why_choose_us .sec_content .box4.animate {
+        top: 320px;
+        left: 565px;
+        opacity: 1;
+        transform: translate(0, 0) !important
+    }
+
+    .our_specialities .sec_right {
+        gap: 10px
+    }
+
+    .our_specialities .sec_right .box {
+        width: 100%
+    }
+
+    .contact_us .sec_top h2::before,
+    .faqs .sec_left h2::before,
+    .who_we_serve .sec_left h2::before,
+    .why_choose_us .sec_top h2 span.font-800::before {
+        top: -20px
+    }
+
+    .get_started .sec_right h2::before,
+    .ghostwriter-section .sec_right h2::before,
+    .our_reviews .sec_top h2::before,
+    .our_specialities h2::before {
+        top: -25px
+    }
+
+    .ghostwriter-section .sec_left .box_two h3 {
+        font-size: 35px
+    }
+
+    .our_reviews .sec_content {
+        margin-top: 40px
+    }
+
+    .our_reviews .box {
+        width: 100%;
+        height: 450px;
+        border-radius: 30px
+    }
+
+    .our_reviews .box .content p {
+        margin-bottom: 50px
+    }
+
+    .our_reviews .box .client_info,
+    .our_reviews .box h4 {
+        height: 45px
+    }
+
+    .our_reviews .our_reviews_slider .slick-slide.slick-current.slick-center .box h4 {
+        bottom: 50px
+    }
+
+    .our_reviews .box a.play_button {
+        width: 70px;
+        height: 70px
+    }
+
+    .our_reviews .our_reviews_slider .slick-slide.slick-current.slick-center .box:hover a.play_button {
+        top: 20%
+    }
+
+    .who_we_serve .sec_right .swiper {
+        width: 450px
+    }
+
+    .get_started .marquee_text .marquee_slider li {
+        font-size: 43px;
+        gap: 12px
+    }
+
+    .book-cover-design-services-page .services_banner,
+    .services_banner {
+        padding: 120px 0 10px
+    }
+
+    .about_us_banner::before,
+    .contact_us_banner::before,
+    .services_banner::before {
+        display: none;
+        content: "";
+        width: 100%;
+        height: 40px;
+        bottom: -10px;
+        box-shadow: 0 0 60px 70px var(--light-color), inset 0 0 170px 170px var(--light-color)
+    }
+
+    .services_banner .banner_right .banner_right_img {
+        transform: scale(1) translateY(0)
+    }
+
+    .ebook-process .sec_content .process-box h2 {
+        font-size: 70px;
+        line-height: 75px
+    }
+
+    .ebook-process .sec_content .process-box>p {
+        transform: rotate(90deg) translate(175px, 0)
+    }
+
+    .ebook-process .sec_content .process-box.active>p,
+    body.book-publishing-services-page .ebook-process .sec_content .process-box.active>p {
+        font-size: 35px;
+        line-height: 35px
+    }
+}
+
+@media screen and (max-width:1199px) {
+
+    h1,
+    h2 {
+        letter-spacing: -1px
+    }
+
+    h6,
+    p {
+        letter-spacing: 0
+    }
+
+    :root {
+        --font-size-base: 14px;
+        --font-size-lg: 45px;
+        --font-size-medium: 35px;
+        --font-size-sm: 14px
+    }
+
+    h1 {
+        font-size: var(--font-size-lg);
+        line-height: 50px
+    }
+
+    h2 {
+        font-size: var(--font-size-medium);
+        line-height: 40px
+    }
+
+    .audio-book-services-page .why_choose_us .sec_content .box h3,
+    body.book-illustration-services-page .why_choose_us .sec_content .box h3,
+    h3 {
+        font-size: 22px;
+        line-height: 28px
+    }
+
+    h4,
+    h6,
+    p {
+        line-height: 22px
+    }
+
+    h4 {
+        font-size: 18px
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: 500 !important
+    }
+
+    p {
+        font-size: var(--font-size-base)
+    }
+
+    .sec_padding {
+        padding: 40px 0
+    }
+
+    .about_us .sec_left h2::before,
+    .about_us_about .sec_right h2::before,
+    .contact_us .sec_top h2::before,
+    .faqs .sec_left h2::before,
+    .get_started .sec_right h2::before,
+    .ghostwriter-section .sec_right h2::before,
+    .masterpiece_sec .sec_top h2 .sub_title,
+    .our_reviews .sec_top h2::before,
+    .our_services .our_services_top h2::before,
+    .our_specialities h2::before,
+    .services .sec_top h2::before,
+    .services_sec2 .sec_right h2 .sub_title,
+    .services_sec4 .sec_left h2 .sub_title,
+    .services_sec4.same_sec .sec_left h2 .sub_title,
+    .who_we_serve .sec_left h2::before,
+    .why-us .sec_right h2::before,
+    .why_choose_us .sec_top h2 span.font-800::before {
+        width: fit-content;
+        height: 25px;
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 25px;
+        font-weight: 400
+    }
+
+    header .navbar .logo {
+        width: 180px
+    }
+
+    .banner {
+        padding: 120px 0 250px
+    }
+
+    .banner::before {
+        height: 270px;
+        bottom: 0
+    }
+
+    .banner .banner_right .woman_img {
+        width: 300px;
+        margin-left: unset;
+        transform: translateX(60px) translateY(0)
+    }
+
+    .banner .banner_right .banner_right_book {
+        width: 120px
+    }
+
+    .banner .banner_right .seller_badge {
+        width: 50px;
+        top: -40px;
+        left: -20px
+    }
+
+    .banner .banner_right .banner_right_shape {
+        width: 350px;
+        bottom: 100px;
+        right: 0;
+        z-index: -1
+    }
+
+    .banner .banner_right .up_arrow_icon {
+        width: 90px;
+        top: 125px;
+        left: 40px
+    }
+
+    .banner .clock_tower_img {
+        width: 200px;
+        top: 60px;
+        right: -30px;
+        z-index: -1
+    }
+
+    .banner .banner_inner,
+    .banner .banner_inner .sec_one_slider .slick-slide .box {
+        height: 350px
+    }
+
+    .about_us .sec_right .img.woman-notebook {
+        width: 280px
+    }
+
+    .about_us .sec_right .yellow-star-shape {
+        width: 350px;
+        z-index: -2
+    }
+
+    .about_us .sec_right .best-seller-book {
+        width: 140px;
+        top: 10px;
+        right: 0
+    }
+
+    .about_us .sec_right .about-us-three-books {
+        width: 200px;
+        bottom: 10px;
+        left: -70px
+    }
+
+    .why-us .sec_right .box .content p {
+        font-size: unset;
+        line-height: unset;
+        padding: 0
+    }
+
+    .why-us .sec_right .box .content h6 {
+        margin: 15px 0 10px
+    }
+
+    .services .sec_content .sec_right .tabs .current .box .scroll_block {
+        height: 115px
+    }
+
+    .services .sec_content .sec_right .tabs li .box p {
+        font-size: unset;
+        line-height: unset
+    }
+
+    .services .sec_content .sec_right .tabs li .box a {
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 500
+    }
+
+    .services .sec_content .sec_right .tabs li .box a img {
+        width: 15px
+    }
+
+    .why_choose_us .sec_content {
+        height: 635px
+    }
+
+    .why_choose_us .sec_content .box {
+        width: 450px
+    }
+
+    .why_choose_us .sec_content .box2.animate,
+    .why_choose_us .sec_content .box4.animate {
+        left: 480px
+    }
+
+    .why-us .sec_right p.para_1 span::before {
+        width: 15px;
+        height: 15px;
+        top: 4px
+    }
+
+    .why_choose_us .sec_content .box span {
+        font-size: 90px;
+        line-height: 90px
+    }
+
+    .ghostwriter-section .sec_left .box_two h3,
+    .our_story .sec_content .box p {
+        font-size: 25px
+    }
+
+    .our_reviews .box .content p {
+        height: 135px
+    }
+
+    .who_we_serve .sec_right .swiper {
+        width: 400px
+    }
+
+    .who_we_serve .sec_right .swiper .swiper-slide p.scroll_block {
+        margin: 20px 0 15px;
+        height: 190px
+    }
+
+    .get_started .marquee_text .marquee_slider li {
+        font-size: 34px
+    }
+
+    .get_started .marquee_text .marquee_slider li img {
+        width: 36px
+    }
+
+    .our_specialities .sec_right .box p,
+    footer .ft_menu ul li a {
+        font-size: 14px
+    }
+
+    footer .ft_menu ul li {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    footer .main_ft .sec_left p,
+    footer .main_ft .sec_right p a {
+        font-size: 14px;
+        font-weight: 300
+    }
+
+    .our_specialities .swiper {
+        width: 265px;
+        height: 500px;
+        margin: 0
+    }
+
+    .our_specialities .swiper-slide {
+        height: 235px !important;
+        margin: 5px 0
+    }
+
+    .about_us_banner,
+    .contact_us_banner {
+        padding: 120px 0 80px
+    }
+
+    .our_story .sec_content .box h5 {
+        font-size: 75px;
+        line-height: 80px
+    }
+
+    .ebook-process .sec_content .process-box {
+        width: 110px;
+        height: 450px
+    }
+
+    .ebook-process .sec_content .process-box>p {
+        font-size: 25px;
+        line-height: 30px;
+        width: 340px;
+        height: 110px;
+        transform: rotate(90deg) translate(115px, 0);
+        text-align: left
+    }
+
+    .ebook-process .sec_content .process-box.active>p {
+        text-align: center
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    h1,
+    h2 {
+        letter-spacing: -1px
+    }
+
+    h6,
+    p {
+        letter-spacing: 0
+    }
+
+    .our_services .boxes .box h4,
+    header .container {
+        margin: 0;
+        padding: 0
+    }
+
+    :root {
+        --font-size-base: 14px;
+        --font-size-lg: 35px;
+        --font-size-medium: 35px;
+        --font-size-sm: 14px
+    }
+
+    h1 {
+        font-size: var(--font-size-lg);
+        line-height: 35px
+    }
+
+    h2 {
+        font-size: var(--font-size-medium);
+        line-height: 40px
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    h4,
+    h6,
+    p {
+        line-height: 22px
+    }
+
+    h4 {
+        font-size: 17px
+    }
+
+    h6 {
+        font-size: 14px;
+        font-weight: 300 !important
+    }
+
+    p {
+        font-size: var(--font-size-base)
+    }
+
+    .combo_btn,
+    .ebook-process .sec_content {
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn .text {
+        width: 115px;
+        height: 40px
+    }
+
+    .banner .banner_right .banner_right_shape,
+    .our_specialities .mySwiper2,
+    header .navbar .main_menu .combo_btn,
+    header .navbar ul li::before {
+        display: none
+    }
+
+    header .container {
+        max-width: 100%
+    }
+
+    header .navbar {
+        padding: 10px 30px;
+        flex-wrap: wrap
+    }
+
+    header .navbar .menu-toggle {
+        width: 30px;
+        height: 22px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        display: block;
+        cursor: pointer
+    }
+
+    header .navbar .menu-toggle span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: var(--light-color);
+        border-radius: 2px;
+        transition: .3s
+    }
+
+    header .navbar .menu-toggle span:first-child {
+        transform: rotate(0) translateY(0)
+    }
+
+    header .navbar .menu-toggle span:nth-child(2) {
+        transform: rotate(0) translateY(5px)
+    }
+
+    header .navbar .menu-toggle span:nth-child(3) {
+        transform: rotate(0) translateY(10px)
+    }
+
+    header .navbar .menu-toggle.active span:first-child {
+        transform: rotate(45deg) translateY(9px)
+    }
+
+    header .navbar .menu-toggle.active span:nth-child(2) {
+        opacity: 0
+    }
+
+    header .navbar .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-9px)
+    }
+
+    header .navbar .main_menu {
+        width: 300px;
+        height: 100vh;
+        transform: translateX(-300px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        transition: var(--cubic)
+    }
+
+    header .navbar .main_menu.show {
+        transform: translateX(0)
+    }
+
+    header .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: #288af6;
+        backdrop-filter: blur(5px);
+        box-shadow: 0 0 50px #0d41b5 inset;
+        gap: 25px;
+        padding: 20px;
+        transition: var(--cubic)
+    }
+
+    header .navbar ul.show {
+        display: flex;
+        align-items: flex-start
+    }
+
+    .who_we_serve .sec_right .swiper,
+    header .navbar ul li {
+        width: 100%
+    }
+
+    header .navbar .menu-toggle i {
+        color: var(--light-color);
+        font-size: 30px
+    }
+
+    header .navbar ul li.services_dropdown .dropdown {
+        position: static;
+        flex-direction: column;
+        min-width: 100%;
+        height: 0;
+        opacity: 1;
+        transform: unset;
+        pointer-events: auto;
+        display: none;
+        background: unset;
+        backdrop-filter: unset;
+        box-shadow: unset;
+        flex-wrap: unset;
+        border-radius: 0;
+        padding: 0 10px 0 0;
+        margin-top: 10px;
+        overflow-y: scroll
+    }
+
+    header .navbar ul li.services_dropdown .dropdown li {
+        list-style: none;
+        flex: unset
+    }
+
+    header .navbar ul li.services_dropdown.active .dropdown {
+        display: flex;
+        flex-direction: column;
+        height: 320px
+    }
+
+    .banner {
+        padding: 120px 0 160px
+    }
+
+    .banner .banner_left h1 img {
+        width: 35px
+    }
+
+    .banner .banner_right .banner_right_book {
+        width: 100px;
+        left: -30px
+    }
+
+    .banner .banner_right .seller_badge {
+        left: -50px
+    }
+
+    .banner .banner_right .woman_img {
+        width: 300px;
+        transform: translateX(0) translateY(0)
+    }
+
+    .banner .banner_right .up_arrow_icon {
+        width: 60px;
+        top: 105px;
+        left: 10px
+    }
+
+    .banner .banner_inner,
+    .banner .banner_inner .sec_one_slider .slick-slide .box {
+        height: 245px
+    }
+
+    .our_services .boxes .box p {
+        height: 95px;
+        padding: 0
+    }
+
+    .our_services .boxes .box .img a {
+        top: -30px;
+        right: 10px
+    }
+
+    .about_us .sec_right .yellow-star-shape {
+        width: 300px;
+        left: 45%;
+        z-index: -2
+    }
+
+    .about_us .sec_right .best-seller-book {
+        right: -35px
+    }
+
+    .about_us .sec_right .about-us-three-books {
+        width: 140px;
+        left: -20px
+    }
+
+    .why-us .sec_right p {
+        margin: 10px 0 0
+    }
+
+    .why-us .sec_right .box {
+        margin-top: 20px
+    }
+
+    .why-us .sec_right .box .content {
+        padding: 15px 10px
+    }
+
+    .why-us .sec_right .box .content p {
+        font-size: 12px;
+        line-height: unset;
+        padding: 0
+    }
+
+    .services .sec_content .sec_right .tabs .current .box .scroll_block {
+        height: 120px
+    }
+
+    .services .sec_content .sec_right .tabs li .box p {
+        font-size: 12px;
+        line-height: unset
+    }
+
+    .services .sec_content .sec_left .my-tabs .img {
+        height: 500px
+    }
+
+    .our_reviews .sec_top p span.break_line,
+    .why_choose_us .sec_top p span.break_line {
+        display: inline-block
+    }
+
+    .why_choose_us .sec_content .box {
+        width: 335px
+    }
+
+    .why_choose_us .sec_content .box2.animate,
+    .why_choose_us .sec_content .box4.animate {
+        left: 360px
+    }
+
+    .why_choose_us .sec_content .box span {
+        font-size: 60px;
+        line-height: 60px;
+        letter-spacing: -2.484px
+    }
+
+    .why_choose_us .sec_content .box3.animate,
+    .why_choose_us .sec_content .box4.animate {
+        top: 310px
+    }
+
+    .our_specialities .swiper-slide {
+        height: 240px !important;
+        margin: 5px 0
+    }
+
+    .our_specialities .sec_right .box h6 {
+        font-size: 20px;
+        font-weight: 700 !important;
+        margin: 15px 0 5px
+    }
+
+    .our_specialities::before {
+        height: 30px
+    }
+
+    .our_specialities .sec_left p {
+        margin: 10px 0
+    }
+
+    .ghostwriter-section .sec_left .box {
+        padding: 20px 15px
+    }
+
+    .ghostwriter-section .sec_left .box .img {
+        width: 40px
+    }
+
+    .ghostwriter-section .sec_left .box h3 {
+        font-size: 20px;
+        margin: 10px 0
+    }
+
+    .our_reviews .our_reviews_slider .slick-slide {
+        transform: scale(.8)
+    }
+
+    .our_reviews .box .client_info {
+        width: 85px
+    }
+
+    .our_reviews .box .client_info img {
+        width: 20px
+    }
+
+    .who_we_serve .sec_right .swiper .swiper-slide .stars img {
+        width: 25px
+    }
+
+    .faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+        padding-right: 10px
+    }
+
+    .faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 17px;
+        line-height: 22px;
+        padding: 10px 10px 0 0
+    }
+
+    .faqs .sec_right .accordion .accordion-item {
+        padding-left: 30px
+    }
+
+    .faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button::after {
+        top: 10px;
+        left: -25px
+    }
+
+    .get_started .marquee_text .marquee_slider li {
+        font-size: 27px
+    }
+
+    .get_started .marquee_text {
+        margin-bottom: 30px
+    }
+
+    .ebook-process .sec_content .process-box {
+        width: 70px;
+        height: 350px
+    }
+
+    .ebook-process .sec_content .process-box.active {
+        width: 500px;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 25px
+    }
+
+    .ebook-process .sec_content .process-box h2 {
+        font-size: 50px;
+        line-height: 55px
+    }
+
+    .ebook-process .sec_content .process-box.active>p,
+    body.book-publishing-services-page .ebook-process .sec_content .process-box.active>p {
+        font-size: 25px;
+        line-height: 30px
+    }
+
+    .ebook-process .sec_content .process-box>p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 270px;
+        height: 45px;
+        transform: rotate(90deg) translate(110px, 0);
+        text-align: left
+    }
+
+    .ebook-process .sec_content .process-box.active .box-content p {
+        opacity: .8;
+        height: 180px
+    }
+
+    .services_sec2 .sec_right,
+    .services_sec4 .sec_left {
+        padding: 40px 0
+    }
+
+    .audio-book-services-page .why_choose_us .sec_content .box h3,
+    body.book-illustration-services-page .why_choose_us .sec_content .box h3 {
+        font-size: 18px;
+        line-height: 25px
+    }
+
+    .our_story .sec_content .box {
+        border-radius: 20px;
+        padding: 20px 0 20px 35px
+    }
+
+    .our_story .sec_content .box h5 {
+        font-size: 40px;
+        line-height: 45px
+    }
+
+    .our_story .sec_content .box p {
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    .our_story .sec_content .box .img {
+        width: 40px;
+        top: 0;
+        left: -10px
+    }
+
+    .our_story .sec_content .combo_btn {
+        margin-top: 80px;
+        justify-content: center
+    }
+
+    .book-editing-services-page .banner_after {
+        width: 350px;
+        bottom: 30px
+    }
+
+    .masterpiece_sec .sec_content .box .img {
+        width: 50%
+    }
+
+    .masterpiece_sec .sec_content .box .content {
+        width: 300px;
+        border-radius: 18px;
+        padding: 20px
+    }
+
+    .masterpiece_sec .sec_content .box .content p {
+        font-size: 12px;
+        line-height: 20px;
+        height: 100px
+    }
+
+    .masterpiece_sec .sec_content .box.bottom_box .img {
+        margin-left: auto
+    }
+}
+
+@media screen and (max-width:767px) {
+    h6 {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0;
+        font-weight: 700 !important
+    }
+
+    .about_us .sec_left h2::before,
+    .about_us_about .sec_right h2::before,
+    .contact_us .sec_top h2::before,
+    .faqs .sec_left h2::before,
+    .get_started .sec_right h2::before,
+    .ghostwriter-section .sec_right h2::before,
+    .our_specialities h2::before,
+    .services .sec_top h2::before,
+    .services_sec4 .sec_left h2 .sub_title,
+    .services_sec4.same_sec .sec_left h2 .sub_title,
+    .who_we_serve .sec_left h2::before,
+    .why-us .sec_right h2::before,
+    .why_choose_us .sec_top h2 span.font-800::before,
+    body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title {
+        top: -20px
+    }
+
+    .about_us .sec_right .about-us-three-books,
+    .about_us .sec_right .best-seller-book,
+    .about_us .sec_right .yellow-star-shape,
+    .banner .banner_right .banner_right_book,
+    .banner .banner_right .seller_badge,
+    .banner .banner_right .up_arrow_icon,
+    .contact_us_banner .banner_right .banner_right_shape,
+    .ghostwriter-section.sm-none,
+    .our_services.sm-none,
+    .our_specialities::before {
+        display: none
+    }
+
+    .banner .clock_tower_img {
+        width: 200px;
+        top: unset;
+        bottom: 250px;
+        right: -30px;
+        z-index: -1
+    }
+
+    .banner .banner_right,
+    .services_banner .banner_right,
+    .why-us .sec_right {
+        margin-top: 40px
+    }
+
+    .banner .banner_right .woman_img {
+        width: 300px;
+        transform: translateX(0) translateY(0);
+        margin-left: auto
+    }
+
+    .ghostwriter-section.md-none,
+    .our_services.md-none,
+    .our_specialities .mySwiper2,
+    .why_choose_us.md-none {
+        display: block
+    }
+
+    .our_services .boxes .box {
+        opacity: 1;
+        transform: unset;
+        margin-top: 25px
+    }
+
+    .about_us .sec_right .img.woman-notebook {
+        width: 280px;
+        margin-left: auto
+    }
+
+    .why-us .sec_left .img {
+        width: 200px;
+        margin: 0 auto
+    }
+
+    .about_us_about .sec_right,
+    .faqs .sec_right,
+    .masterpiece_sec .sec_content .box,
+    .our_story .sec_content .combo_btn,
+    .services .sec_content .sec_right,
+    footer .main_ft {
+        margin-top: 25px
+    }
+
+    .services .sec_content .row {
+        flex-direction: column-reverse;
+        gap: 25px
+    }
+
+    .break_line,
+    .services .sec_top h2 span.break_line {
+        display: inline-block
+    }
+
+    .services .sec_content .sec_left .my-tabs .img {
+        width: 50%;
+        height: 310px
+    }
+
+    .services .sec_content .sec_right .tabs .current .box .scroll_block {
+        height: 85px
+    }
+
+    .masterpiece_sec .sec_content .box .content p,
+    .why_choose_us .sec_content {
+        height: unset
+    }
+
+    .why_choose_us .sec_content .box {
+        width: 100%;
+        position: relative;
+        opacity: 1;
+        top: unset;
+        left: unset
+    }
+
+    .why_choose_us .sec_content .box p {
+        height: unset;
+        opacity: .7
+    }
+
+    .our_specialities .sec_right {
+        position: relative
+    }
+
+    .our_specialities .sec_right::before {
+        content: "";
+        width: 100%;
+        height: 50px;
+        background: 0 0;
+        box-shadow: inset 0 0 30px 30px #ffc902d1, 0 0 30px 20px #ffc902d1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2
+    }
+
+    .our_specialities .swiper-slide {
+        height: 220px !important
+    }
+
+    .ghostwriter-section .row {
+        flex-direction: column-reverse
+    }
+
+    .ghostwriter-section .sec_left {
+        margin-top: 25px;
+        gap: 25px
+    }
+
+    .ghostwriter-section .sec_left .box {
+        transform: unset
+    }
+
+    .ghostwriter-section .sec_right {
+        padding: 0 !important
+    }
+
+    .our_reviews .box {
+        height: 500px
+    }
+
+    .who_we_serve .sec_right .swiper .swiper-slide p.scroll_block {
+        margin: 20px 0 15px;
+        height: 225px
+    }
+
+    .who_we_serve .sec_right .swiper {
+        width: 70%;
+        padding: 50px 0 0
+    }
+
+    .faqs .sec_right .accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+        top: 15px
+    }
+
+    .get_started .marquee_text .marquee_slider li {
+        font-size: 20px;
+        gap: 16px
+    }
+
+    .get_started .marquee_text .marquee_slider li img {
+        width: 20px
+    }
+
+    .contact_us .sec_left ul.info,
+    .contact_us .sec_left ul.social_link {
+        margin: 15px 0 30px
+    }
+
+    .contact_us .sec_right {
+        margin-top: 30px
+    }
+
+    .contact_us .sec_right form .submit_btn input[type=submit] {
+        width: 120px;
+        height: 40px
+    }
+
+    footer {
+        padding: 40px 0 10px
+    }
+
+    footer .ft_menu.ft_services {
+        margin: 30px 0
+    }
+
+    footer .ft_menu ul {
+        margin-top: 0
+    }
+
+    footer .main_ft {
+        padding: 10px 0 0
+    }
+
+    footer .main_ft .sec_left p {
+        text-align: center
+    }
+
+    footer .main_ft .sec_right p {
+        justify-content: center
+    }
+
+    .services_banner .banner_right .banner_right_img {
+        transform: scale(1) translateY(0);
+        width: 300px;
+        margin: 0 auto
+    }
+
+    .services_sec2 {
+        padding: 40px 0
+    }
+
+    .author-website-services-page .services_sec4 .sec_right .img,
+    .book-illustration-services-page .services_sec4 .sec_right .img,
+    .book-marketing-services-page .services_sec4 .sec_right .img,
+    .book-printing-services-page .services_sec4 .sec_right .img,
+    .book-publishing-services-page .services_sec4 .sec_right .img,
+    .book-video-trailer-services-page .services_sec4 .sec_right .img,
+    .services_sec4 .sec_right .img {
+        transform: scale(1) translate(0, 0);
+        width: 300px
+    }
+
+    .our_services .boxes .box {
+        padding: 25px 10px 10px
+    }
+
+    .our_services .boxes .box p {
+        height: unset;
+        padding: 0
+    }
+
+    .our_services .boxes .box .img {
+        width: 100%;
+        height: 250px
+    }
+
+    .our_services .boxes .box .img .book_img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center bottom
+    }
+
+    .about_us_about .sec_left .about_left_img,
+    .audio-book-services-page .services_sec2 .sec_left .img,
+    .author-website-services-page .services_sec2 .sec_left .img,
+    .book-marketing-services-page .services_sec2 .sec_left .img,
+    .services_sec2 .sec_left .img {
+        width: 300px
+    }
+
+    .book-editing-services-page .banner_after {
+        width: 300px;
+        margin-left: auto;
+        bottom: 0;
+        position: unset
+    }
+
+    .about_us_banner,
+    .services_banner {
+        padding: 120px 0 40px
+    }
+
+    .contact_us_banner .banner_left h6,
+    .services_banner .banner_left h6 {
+        font-size: 14px;
+        font-weight: 300 !important;
+        padding: 0 5px
+    }
+
+    .masterpiece_sec .sec_content .box .img {
+        width: 250px
+    }
+
+    .masterpiece_sec .sec_content .box .content {
+        width: 350px;
+        border-radius: 15px;
+        padding: 25px 15px
+    }
+
+    .masterpiece_sec .sec_content .box.bottom_box .img {
+        margin-left: auto
+    }
+
+    .contact_us_banner {
+        padding: 120px 0 80px
+    }
+
+    .about_us_banner .banner_right .banner_right_img,
+    .contact_us_banner .banner_right .banner_right_img {
+        width: 300px;
+        margin-left: auto
+    }
+
+    .about_us_about .sec_left .yellow_star_shape {
+        width: 300px;
+        top: -35px;
+        left: -50px
+    }
+
+    .our_story .sec_content #counter {
+        gap: 40px
+    }
+
+    .our_story .sec_content .box .img {
+        width: 30px;
+        top: 0;
+        left: -7px
+    }
+
+    .privacy-policy {
+        padding: 100px 0 60px
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    h4,
+    h6,
+    p {
+        line-height: 22px
+    }
+
+    h1,
+    h2,
+    h6,
+    p {
+        letter-spacing: 0
+    }
+
+    :root {
+        --font-size-base: 14px;
+        --font-size-lg: 25px;
+        --font-size-medium: 25px;
+        --font-size-sm: 14px
+    }
+
+    h1 {
+        font-size: var(--font-size-lg);
+        line-height: 25px
+    }
+
+    h2 {
+        font-size: var(--font-size-medium);
+        line-height: 30px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    h4 {
+        font-size: 17px
+    }
+
+    h6 {
+        font-size: 14px;
+        font-weight: 300 !important
+    }
+
+    p {
+        font-size: var(--font-size-base);
+        text-align: center;
+    }
+    .banner_left p{
+        text-align: left !important;
+    }
+
+    .break_line {
+        display: inline-block
+    }
+
+    .btn .text {
+        width: 100px;
+        height: 40px
+    }
+
+    .btn .icon {
+        width: 33px;
+        height: 40px
+    }
+
+    .about_us .sec_left h2::before,
+    .faqs .sec_left h2::before,
+    .get_started .sec_right h2::before,
+    .ghostwriter-section .sec_right h2::before,
+    .services .sec_top h2::before,
+    .who_we_serve .sec_left h2::before,
+    .why-us .sec_right h2::before {
+        left: -10px
+    }
+
+    header .navbar {
+        padding: 10px;
+        flex-wrap: wrap
+    }
+
+    header .navbar .main_menu {
+        width: 250px
+    }
+
+    .about_us_banner .banner_left h6,
+    .banner .banner_left h6,
+    .contact_us_banner .banner_left h6,
+    .services_banner .banner_left h6 {
+        font-size: 11px;
+        font-weight: 300 !important;
+        padding: 5px;
+        gap: 5px
+    }
+
+    .banner .banner_left h1 img {
+        width: 25px
+    }
+
+    .banner .banner_right .woman_img {
+        width: 180px
+    }
+
+    .banner .banner_inner,
+    .banner .banner_inner .sec_one_slider .slick-slide .box {
+        height: 210px
+    }
+
+    .about_us .sec_right .img.woman-notebook {
+        width: 200px
+    }
+
+    .services .sec_content .sec_left .my-tabs .img {
+        width: 100%;
+        height: 310px
+    }
+
+    .services .sec_content .sec_right .tabs .current .box .scroll_block {
+        height: 120px
+    }
+
+    .our_specialities .mySwiper2 {
+        display: none
+    }
+
+    .our_specialities .swiper {
+        width: 100%
+    }
+
+    .our_reviews .box {
+        height: 400px
+    }
+
+    .who_we_serve .sec_right .swiper {
+        width: 100%;
+        padding: 50px 0 0
+    }
+
+    .get_started .marquee_text .marquee_slider li {
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0;
+        gap: 12px
+    }
+
+    .get_started .marquee_text {
+        margin-bottom: 0
+    }
+
+    .get_started .sec_right {
+        margin-top: 25px
+    }
+
+    .ebook-process .sec_content {
+        flex-direction: column
+    }
+
+    .ebook-process .sec_content .process-box {
+        width: 100%;
+        height: 150px;
+        border-radius: 14px;
+        padding: 0;
+        justify-content: center;
+        align-items: center
+    }
+
+    .ebook-process .sec_content .process-box.active {
+        width: 100%;
+        height: 340px
+    }
+
+    .ebook-process .sec_content .process-box>p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        height: unset;
+        transform: unset;
+        text-align: center;
+        justify-content: center
+    }
+
+    .about_us .sec_left h2::before,
+    .about_us_about .sec_right h2::before,
+    .contact_us .sec_top h2::before,
+    .faqs .sec_left h2::before,
+    .get_started .sec_right h2::before,
+    .ghostwriter-section .sec_right h2::before,
+    .masterpiece_sec .sec_top h2 .sub_title,
+    .our_reviews .sec_top h2::before,
+    .our_services .our_services_top h2::before,
+    .our_specialities h2::before,
+    .services .sec_top h2::before,
+    .services_sec2 .sec_right h2 .sub_title,
+    .services_sec4 .sec_left h2 .sub_title,
+    .services_sec4.same_sec .sec_left h2 .sub_title,
+    .who_we_serve .sec_left h2::before,
+    .why-us .sec_right h2::before,
+    .why_choose_us .sec_top h2 span.font-800::before,
+    body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title {
+        top: -25px;
+        z-index: -2
+    }
+
+    .who_we_serve .sec_right .swiper .swiper-slide p.scroll_block {
+        margin: 20px 0 15px;
+        height: 175px
+    }
+
+    .who_we_serve .sec_right .swiper .swiper-slide {
+        padding: 25px 15px
+    }
+
+    .why-us .sec_right p.para_1 {
+        height: unset
+    }
+
+    .masterpiece_sec .sec_content .box .content {
+        width: 290px
+    }
+}
