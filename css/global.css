@@ -902,7 +902,7 @@ header .navbar ul li.services_dropdown .dropdown li a {
 .marquee-wrapper {
     width: 100%;
     overflow: hidden;
-    background: #fff;
+    background: #e9ecef;
     position: relative;
     z-index: 1;
     padding: 20px 0;
