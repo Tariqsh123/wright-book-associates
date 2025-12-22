@@ -895,28 +895,3 @@ header .navbar ul li.services_dropdown .dropdown li a {
     font-weight: 600;
 } */
 
-.btn_1 span{
-    color: black !important; 
-}
-
-.btn_1, .btn_1 .icon{
-    background-color: white;
-}
-.btn_1 .icon img {
-    object-fit: contain;
-    filter: invert(1); /* white → black */
-}
-.book-carousel-main .btn_1 .icon img ,.satisfy-main-container .btn_1 .icon img ,.who_we_serve .btn_1 .icon img ,.what-section .btn_1 .icon img {
-    object-fit: contain;
-    filter: none; /* white → black */
-}
-
-.book-carousel-main .btn_1,.book-carousel-main .btn_1 .icon , .satisfy-main-container .btn_1 .icon ,.satisfy-main-container .btn_1,.who_we_serve .btn_1,.who_we_serve .btn_1 .icon ,.what-section .btn_1,.what-section .btn_1 .icon{
-    background-color: black;
-}
-.btn_2 span{
-    color: black !important;
-}
-.btn_2 .text{
-    background-color: white;
-}
