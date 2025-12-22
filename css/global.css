@@ -895,3 +895,37 @@ header .navbar ul li.services_dropdown .dropdown li a {
     font-weight: 600;
 } */
 
+/* MArquee */
+.marquee-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1;
+    position: relative;
+    padding: 20px 0;
+}
+
+.marquee-track {
+    display: flex;
+    gap: 20px;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee-track img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Infinite scroll animation */
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* shift by half track (the first set) */
+}
+@media(max-width:600px){
+ .marquee-track img {
+    height: 30px;
+}   
+}
