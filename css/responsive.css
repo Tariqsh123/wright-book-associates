@@ -2040,6 +2040,7 @@
     .why_choose_us .sec_top h2 span.font-800::before,
     body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title {
         top: -25px;
+        left: 0;
         z-index: -2
     }
 

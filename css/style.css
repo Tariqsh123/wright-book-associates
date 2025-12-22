@@ -1515,7 +1515,8 @@ footer .main_ft .sec_right p a {
 
 .about_us_banner,
 .services_banner {
-    background: url("../images/banner-bg_1.webp") center/cover;
+    /* background: url("../images/banner-bg_1.webp") center/cover; */
+    background-color: #004d43;
     padding: 150px 0 250px;
     position: relative;
     z-index: 1
@@ -1864,7 +1865,7 @@ body.ebook-writing-services-page .services_sec2 .sec_right h2 .sub_title {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: -2px;
-    color: var(--light-color);
+    color: black;
     position: absolute
 }
 
