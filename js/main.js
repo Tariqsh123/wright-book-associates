@@ -29,3 +29,29 @@ $(document).ready(function () {
   }
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const tracks = document.querySelectorAll(".marquee-track");
+
+    tracks.forEach(track => {
+
+        let speed = 3;   // sab ka same speed
+        let position = 0;
+
+        function animate() {
+            position -= speed;
+
+            if (Math.abs(position) >= track.scrollWidth / 2) {
+                position = 0;
+            }
+
+            track.style.transform = `translateX(${position}px)`;
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    });
+
+});

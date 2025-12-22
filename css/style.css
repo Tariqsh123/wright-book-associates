@@ -83,9 +83,9 @@ header .navbar ul li.services_dropdown .dropdown {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #288af6;
+    background: #193133;
     backdrop-filter: blur(5px);
-    box-shadow: 0 0 50px #0d41b5 inset;
+    box-shadow: 0 0 50px #004d43 inset;
     min-width: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -108,8 +108,8 @@ header .navbar ul li.services_dropdown .dropdown li {
 header .navbar ul li.services_dropdown .dropdown li a {
     display: block;
     color: var(--light-color);
-    background: #000a65;
-    box-shadow: 0 0 50px #0d41b5 inset;
+    background: #193133;
+    box-shadow: 0 0 50px #004d43 inset;
     transform: skewX(0);
     padding: 10px 15px;
     transition: var(--cubic);
@@ -1515,8 +1515,8 @@ footer .main_ft .sec_right p a {
 
 .about_us_banner,
 .services_banner {
-    /* background: url("../images/banner-bg_1.webp") center/cover; */
-    background-color: #004d43;
+    background: url("../images/banner-bg_1.webp") center/cover;
+    /* background-color: #004d43; */
     padding: 150px 0 250px;
     position: relative;
     z-index: 1
