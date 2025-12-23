@@ -247,66 +247,64 @@ body {
 </style>
 
 <section id="get-started-main-container">
-    <div id="get-started-form-container">
-        <form id="get-started-form">
+   <section class="contact-section">
+  <div class="contact-container">
 
-            <h2 id="get-started-heading">It’s The Right Time – We Should Pair!</h2>
+    <!-- LEFT FORM -->
+    <div class="contact-form-wrapper">
+      <div class="contact-form">
+        <h2>
+          Let’s Bring Your Book to <br>
+          <span> Life Get in Touch Today.</span>
+        </h2>
 
-            <!-- Row 1: Name & Email -->
-            <div id="get-started-row-1" class="get-started-form-row">
-                <input id="get-started-name" name="name" type="text" placeholder="Name" required>
-                <input id="get-started-email" name="email" type="email" placeholder="Email" required>
+        <form>
+
+          <!-- ROW 1: Name + Email -->
+          <div class="form-row">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+          </div>
+
+          <!-- ROW 2: Phone + Genre -->
+          <div class="form-row">
+            <input type="tel" placeholder="Phone">
+            <select>
+              <option>Select Genre</option>
+              <option>Fiction</option>
+              <option>Non-Fiction</option>
+              <option>Children Book</option>
+            </select>
+          </div>
+
+          <!-- SERVICES -->
+          <div class="services-box">
+            <p class="services-title">Select Services</p>
+            <div class="services-grid">
+              <label><input type="checkbox"> Book Cover Design</label>
+              <label><input type="checkbox"> Book Layout Design</label>
+              <label><input type="checkbox"> Custom Illustrations</label>
+              <label><input type="checkbox"> Book/Ebook Pages Design</label>
+              <label><input type="checkbox"> Author's Website</label>
+              <label><input type="checkbox"> Book Promotion Graphics</label>
+              <label><input type="checkbox"> Book Trailer Video</label>
+              <label><input type="checkbox"> Book Printing</label>
+              <label><input type="checkbox"> Ebook Publishing</label>
+              <label><input type="checkbox"> Ghostwriting</label>
+              <label><input type="checkbox"> Other Services</label>
             </div>
+          </div>
 
-            <!-- Row 2: Phone & Genre -->
-            <div id="get-started-row-2" class="get-started-form-row">
-                <input id="get-started-phone" name="phone" type="tel" placeholder="Phone" required>
-                <select id="get-started-genre" name="genre" required>
-                    <option value="">Select Genre</option>
-                    <option value="fiction">Fiction</option>
-                    <option value="non-fiction">Non-Fiction</option>
-                    <option value="self-help">Self-help</option>
-                    <option value="children">Children</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
+          <input type="file">
+          <textarea placeholder="Enter a brief description"></textarea>
 
-            <!-- Row 3: Services Checkboxes -->
-            <div id="get-started-services-row" class="get-started-form-row get-started-services-row">
-                <label><input id="get-started-service-book-cover" type="checkbox" name="services" value="book-cover"> Book Cover Design</label>
-                <label><input id="get-started-service-book-layout" type="checkbox" name="services" value="book-layout"> Book Layout Design</label>
-                <label><input id="get-started-service-illustrations" type="checkbox" name="services" value="illustrations"> Custom Illustrations</label>
-                <label><input id="get-started-service-pages" type="checkbox" name="services" value="pages-design"> Book/Ebook Pages Design</label>
-                <label><input id="get-started-service-website" type="checkbox" name="services" value="website"> Author's Website</label>
-                <label><input id="get-started-service-graphics" type="checkbox" name="services" value="graphics"> Book Promotion Graphics</label>
-                <label><input id="get-started-service-trailer" type="checkbox" name="services" value="trailer"> Book Trailer Video</label>
-                <label><input id="get-started-service-printing" type="checkbox" name="services" value="printing"> Book Printing</label>
-                <label><input id="get-started-service-ebook" type="checkbox" name="services" value="ebook-publishing"> Ebook Publishing</label>
-                <label><input id="get-started-service-ghostwriting" type="checkbox" name="services" value="ghostwriting"> Ghostwriting</label>
-            </div>
-
-            <!-- Row 4: File Upload -->
-            <div id="get-started-row-4" class="get-started-form-row">
-                <input id="get-started-file" type="file" name="file">
-            </div>
-
-            <!-- Row 5: Details Textarea -->
-            <div id="get-started-row-5" class="get-started-form-row">
-                <textarea id="get-started-details" name="details" rows="5" placeholder="Details..."></textarea>
-            </div>
-
-            <!-- Row 6: Privacy Note -->
-            <p id="get-started-privacy-note">
-                We respect your privacy and do not tolerate spam and will never sell, rent, lease or give away your information (name, phone, email, etc.) to any third party. Nor will we send you unsolicited emails.
-            </p>
-
-            <!-- Row 7: Submit Button -->
-            <div id="get-started-row-7" class="get-started-form-row">
-                <button id="get-started-submit" type="submit">Submit</button>
-            </div>
-
+          <button type="submit">Let's Do It!</button>
         </form>
+      </div>
     </div>
+
+  </div>
+</section>
 </section>
 
 
