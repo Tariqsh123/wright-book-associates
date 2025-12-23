@@ -777,10 +777,15 @@ header .navbar ul li.services_dropdown .dropdown li a {
 
 /* Footer */
 .footer-main{
-    background:#193133;
+    background:#004d43ea;
     color:#fff;
     padding:60px 0 0;
+    max-width:1400px;
     font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 98%;
+    border-radius: 20px 20px 0 0;
+    border: 3px solid #193133;
 }
 
 .footer-container{
@@ -1062,7 +1067,7 @@ header .navbar ul li.services_dropdown .dropdown li a {
 
 /* Above footer left */
 .contact-section{
-  padding-bottom: 50px;
+  padding: 50px 20px;
 }
 
 .contact-container{
@@ -1283,5 +1288,89 @@ header .navbar ul li.services_dropdown .dropdown li a {
 @media(max-width:600px){
     .get-in-touch .main-heading {
     font-size: 35px;
+}
+}
+
+
+/* ebook 5 Step Process */
+.ebook-process-main-container{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #004d43;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.ebook-process-main-container h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    line-height: normal;
+}
+.ebook-process-main-container h2 span{
+    font-weight: 300;
+}
+.ebook-process-card-container{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ebook-process-card{
+    height: 550px;
+    border: 2px solid #d0ff71;
+    background-color: #193133;
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    
+    border-radius: 50px;
+    gap: 30px;
+}
+
+.ebook-process-card h2{
+    font-size: 100px;
+    color: #27eaa6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ebook-process-card h3{
+    font-size: 40px;
+    color: #fff;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+.ebook-process-card p{
+    font-size: medium;
+    color: #e4e4e4;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+@media(max-width:500px){
+    .ebook-process-card-container{
+    gap: 30px;
+}
+    .ebook-process-card {
+    height: fit-content;
+    width: 100%;
+    padding: 40px 15px;
+    gap: 30px;
+}
+.ebook-process-card h3 {
+    font-size: 40px;
 }
 }

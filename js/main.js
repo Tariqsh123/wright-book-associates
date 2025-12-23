@@ -37,13 +37,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     tracks.forEach(track => {
 
-        let speed = 3;   // sab ka same speed
+        // Duplicate content for seamless loop
+        track.innerHTML += track.innerHTML;
+
+        let speed = 3;   // same speed for all
         let position = 0;
 
         function animate() {
             position -= speed;
 
             if (Math.abs(position) >= track.scrollWidth / 2) {
+                // Reset position seamlessly
                 position = 0;
             }
 
