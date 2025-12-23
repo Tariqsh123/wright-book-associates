@@ -301,58 +301,103 @@
 const track = document.querySelector('.carousel-track');
 const nextBtn = document.querySelector('.carousel-btn.right');
 const prevBtn = document.querySelector('.carousel-btn.left');
+
 let slides = Array.from(track.children);
+const originalCount = slides.length;
 let index = 0;
+let slideWidth = 0;
+let autoPlay;
+
+// clone slides
+slides.forEach(slide => {
+    track.appendChild(slide.cloneNode(true));
+});
 
 function getSlideWidth() {
     const slide = slides[0];
     const gap = parseInt(getComputedStyle(track).gap) || 0;
     return slide.getBoundingClientRect().width + gap;
 }
-let slideWidth = getSlideWidth();
-slides.forEach(slide => track.appendChild(slide.cloneNode(true)));
-const totalSlides = slides.length;
+
+function updatePosition(animate = true) {
+    track.style.transition = animate ? "transform 0.5s ease" : "none";
+    track.style.transform = `translateX(-${index * slideWidth}px)`;
+}
+
 function nextSlide() {
     index++;
-    track.style.transition = "transform 0.5s ease";
-    track.style.transform = `translateX(-${index * slideWidth}px)`;
-    if (index === totalSlides) {
+    updatePosition(true);
+
+    if (index === originalCount) {
         setTimeout(() => {
-            track.style.transition = "none";
             index = 0;
-            track.style.transform = "translateX(0)";
+            updatePosition(false);
         }, 500);
     }
 }
+
 function prevSlide() {
     if (index === 0) {
-        track.style.transition = "none";
-        index = totalSlides;
-        track.style.transform = `translateX(-${index * slideWidth}px)`;
+        index = originalCount;
+        updatePosition(false);
     }
+
     setTimeout(() => {
         index--;
-        track.style.transition = "transform 0.5s ease";
-        track.style.transform = `translateX(-${index * slideWidth}px)`;
+        updatePosition(true);
     }, 20);
 }
-let autoPlay = setInterval(nextSlide, 2000);
+
+function startCarousel() {
+    slideWidth = getSlideWidth();
+
+    // safety check
+    if (slideWidth < 50) {
+        setTimeout(startCarousel, 100);
+        return;
+    }
+
+    autoPlay = setInterval(nextSlide, 2000);
+}
+
+// buttons
 nextBtn.onclick = () => {
     clearInterval(autoPlay);
     nextSlide();
     autoPlay = setInterval(nextSlide, 2000);
 };
+
 prevBtn.onclick = () => {
     clearInterval(autoPlay);
     prevSlide();
     autoPlay = setInterval(nextSlide, 2000);
 };
+
+// wait for ALL images to load
+let images = track.querySelectorAll('img');
+let loaded = 0;
+
+images.forEach(img => {
+    if (img.complete) {
+        loaded++;
+    } else {
+        img.onload = () => {
+            loaded++;
+            if (loaded === images.length) startCarousel();
+        };
+    }
+});
+
+if (loaded === images.length) startCarousel();
+
+// resize fix
 window.addEventListener('resize', () => {
     slideWidth = getSlideWidth();
-    track.style.transition = "none";
-    track.style.transform = `translateX(-${index * slideWidth}px)`;
+    updatePosition(false);
 });
 </script>
+
+
 
     <!-- Book Carousel End -->
 
@@ -644,7 +689,7 @@ window.addEventListener('resize', () => {
 
     <!-- RIGHT IMAGE -->
     <div class="success-right">
-      <img src="images/our-customer.webp" alt="Our Happy Clients">
+      <img src="images/sec4-right-img.webp" alt="Our Happy Clients">
     </div>
 
   </div>
@@ -840,6 +885,26 @@ window.addEventListener('resize', () => {
         </div>
     </section>
 
+    <!-- marquee -->
+    <div class="marquee-wrapper">
+  <div class="marquee-track">
+    <img src="images/amazon-kindle.webp" alt="">
+    <img src="images/Barnes&Noble.png" alt="">
+    <img src="images/Rakuten-Kobo-logo.png" alt="">
+    <img src="images/Lulu-logo.png" alt="">
+    <img src="images/Google-Books.png" alt="">
+    <img src="images/IngramSpark.jpg" alt="">
+    
+    <!-- duplicate for seamless loop -->
+    <img src="images/amazon-kindle.webp" alt="">
+    <img src="images/Barnes&Noble.png" alt="">
+    <img src="images/Rakuten-Kobo-logo.png" alt="">
+    <img src="images/Lulu-logo.png" alt="">
+    <img src="images/Google-Books.png" alt="">
+    <img src="images/IngramSpark.jpg" alt="">
+  </div>
+</div>
+<!-- end -->
 
     <!-- What Section -->
      <section class="what-section">
@@ -914,6 +979,143 @@ window.addEventListener('resize', () => {
     <!-- What Section End --> 
 
     <!-- marquee -->
+    <div class="marquee-wrapper">
+  <div class="marquee-track">
+    <img src="images/amazon-kindle.webp" alt="">
+    <img src="images/Barnes&Noble.png" alt="">
+    <img src="images/Rakuten-Kobo-logo.png" alt="">
+    <img src="images/Lulu-logo.png" alt="">
+    <img src="images/Google-Books.png" alt="">
+    <img src="images/IngramSpark.jpg" alt="">
+    
+    <!-- duplicate for seamless loop -->
+    <img src="images/amazon-kindle.webp" alt="">
+    <img src="images/Barnes&Noble.png" alt="">
+    <img src="images/Rakuten-Kobo-logo.png" alt="">
+    <img src="images/Lulu-logo.png" alt="">
+    <img src="images/Google-Books.png" alt="">
+    <img src="images/IngramSpark.jpg" alt="">
+  </div>
+</div>
+<!-- end -->
+ <!-- Second What Section -->
+
+    <section id="whats-second-section" class="whats-second-section">
+  <div class="whats-second-container">
+
+    <h2 class="whats-second-main-heading">
+      Give Your Book The Finish It Deserves…
+    </h2>
+
+    <p class="whats-second-intro">
+      Simply put, a beautiful cover, designed by a professional book cover designer,
+      and coupled with your great work can do wonders for your writing career.
+      A well-designed cover instantly communicates the content and theme of your book.
+    </p>
+
+    <!-- TOP GRID -->
+    <div class="whats-second-top-grid">
+
+      <div class="whats-second-left-content">
+
+        <div class="whats-second-block">
+          <h3>Attractive Book Cover Designs That Stir Curiosity</h3>
+          <p>
+            Book Cover Designers aim to contribute to the value instead of noise –
+            that's why the prepared designs are human-obsessed and strike the right
+            chord to stir curiosity. The team doesn't create what everyone has been
+            creating – instead produces something that the audience actually looking
+            for and warmly welcomes with an open heart.
+            <br><br>
+            Before getting to the work, we learn about your target market to ensure
+            your audience praises the output. The human-psyche-inspired designs by us
+            are a surefire way towards your success. Most of the orders we prepared
+            have successfully created a buzz for our clients in their over-saturated
+            marketplace – and that's a real accomplishment for us.
+          </p>
+        </div>
+
+        <div class="whats-second-block">
+          <h3>Game-Changer Cover Designs for Everyone That Redefines Creativity</h3>
+          <p>
+            We hold the pride of dispensing game-changer art book cover designs for
+            everyone! Scroll through the hallowed portfolio and find excellent
+            quality book cover designs for kids, teenagers, adults, and everyone
+            else. Apart from children's book cover design, the battalion of
+            professional book cover designers excels in niche-specified designing too.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="whats-second-right-image">
+        <img src="https://www.bookcoverdesigners.co.uk/frontend/images/other/book-publisher.webp" alt="Book Publisher">
+      </div>
+
+    </div>
+
+    <!-- BOTTOM GRID -->
+    <div class="whats-second-bottom-grid">
+
+      <div class="whats-second-box">
+        <h3>UK's Top-Rated Book Cover Designers With a Bright Spark of Creativity</h3>
+        <p>
+          Since forming 10 years ago, BookCoverDesigners.co.uk has expanded
+          continuously regarding services, size, and team. The small team of creative
+          heads began by delivering good book cover designs to the audience and later
+          expanded to book illustrations, layout designing, and back book cover
+          designing services.
+          <br><br>
+          As we continued expanding the service, adding more to the team members
+          became mandatory. And while doing so, our book cover design agency is proud
+          to work with top-notch, ingenious book cover designers in the UK.
+        </p>
+      </div>
+
+      <div class="whats-second-box">
+        <h3>Purposeful and Personalized Book Cover Designs Every Time in UK</h3>
+        <p>
+          This is a trusted book cover design agency. We have the honor of being
+          trusted over thousands of book cover design companies. The audience holds
+          the highest grades of expectations with us.
+          <br><br>
+          Before the experts sit together to design a book cover, they brainstorm
+          the idea. They look for creative opportunities in your idea and add wings
+          to your thoughts.
+        </p>
+      </div>
+
+      <div class="whats-second-box">
+        <h3>The Quest to Find "UK's Best Book Cover Designers Near Me" Is Over!</h3>
+        <p>
+          England, London, Ireland, Belfast, Scotland, Edinburgh, Wales, Cardiff,
+          Britain, Liverpool, Manchester, Bristol, Birmingham — we serve them all.
+          <br><br>
+          Along with the UK, this book cover design agency aids authors residing in
+          the USA, UAE, and beyond.
+        </p>
+      </div>
+
+      <div class="whats-second-box">
+        <h3>A Book Cover Design Service With Highest Customer Satisfaction Rate!</h3>
+        <p>
+          Authors entrust our professional book cover design service with their
+          stories because they acknowledge no one can do it better.
+          <br><br>
+          This is why BookCoverDesigners.co.uk earns most of its business from repeat
+          clients — word of mouth does the marketing for us.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Second What Section End -->
+
+<!-- marquee -->
     <div class="marquee-wrapper">
   <div class="marquee-track">
     <img src="images/amazon-kindle.webp" alt="">
@@ -1191,6 +1393,20 @@ window.addEventListener('resize', () => {
     <div class="footer-container">
         <div class="footer-row">
 
+            <!-- LOGO + ABOUT -->
+            <div class="footer-col footer-col-2 footer-brand">
+                <img src="images/logo.webp" alt="Company Logo" class="footer-logo">
+
+                <p class="footer-about">
+                    We craft premium book cover designs, illustrations, and publishing
+                    solutions that help authors stand out in a competitive market.
+                </p>
+
+                <p class="footer-work">
+                    Book Covers • Illustrations • Layout Design • Publishing
+                </p>
+            </div>
+
             <!-- Quick Links -->
             <div class="footer-col footer-col-2">
                 <div class="footer-menu">
@@ -1265,6 +1481,7 @@ window.addEventListener('resize', () => {
         </div>
     </div>
 </footer>
+
 </div>
 
 

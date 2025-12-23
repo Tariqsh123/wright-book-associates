@@ -1466,6 +1466,7 @@ footer .main_ft .sec_right p a {
 .services_banner::before {
     content: "";
     width: 100%;
+    display: none;
     height: 240px;
     background: var(--gray-color);
     box-shadow: 0 0 70px 70px var(--light-color), inset 0 0 170px 170px var(--light-color);
