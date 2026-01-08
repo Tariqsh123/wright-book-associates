@@ -1425,6 +1425,6 @@ header .navbar ul li.services_dropdown .dropdown li a {
 }
 @media (max-width: 600px) {
     .roadmap-image-container {
-        height: 280px;
+        height: 200px;
     }
 }
