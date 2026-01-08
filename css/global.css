@@ -1384,3 +1384,47 @@ header .navbar ul li.services_dropdown .dropdown li a {
         left: 40px;
     }
 }
+
+.roadmap-image-container {
+    height: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #105148;
+    align-items: flex-end;
+}
+.roadmap-image-container img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+@media(max-width:1300px){
+.roadmap-image-container{
+    height: 800px;
+}
+}
+@media(max-width:1100px){
+.roadmap-image-container{
+    height: 700px;
+}
+}
+@media(max-width:1000px){
+.roadmap-image-container{
+    height: 650px;
+}
+}
+@media(max-width:991px){
+.roadmap-image-container{
+    height: 550px;
+}
+}
+@media(max-width:768px){
+.roadmap-image-container{
+    height: 450px;
+}
+}
+@media (max-width: 600px) {
+    .roadmap-image-container {
+        height: 280px;
+    }
+}
