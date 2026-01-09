@@ -1432,26 +1432,44 @@ header .navbar ul li.services_dropdown .dropdown li a {
 
 /* Global Marquee Container */
 .global-marquee-container {
-    height: 60px;
-    width: 100%;
     position: fixed;
     bottom: 0;
-    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 60px;
+
     background: #fff;
-    z-index: 10;
+    overflow: hidden;
+    z-index: 9999;
+
     padding: 10px 0;
+
+    transform: translateZ(0);
+    backface-visibility: hidden;
 }
 
-.global-marquee-container .marquee-track {
+.marquee-track {
     display: flex;
-    gap: 20px;
-    justify-content: center;
     align-items: center;
+    gap: 30px;
+    width: max-content;
+
     will-change: transform;
 }
-@media(max-width:600px){
-.global-marquee-container {
-    padding: 15px 0;
-    padding-bottom: 0;
+
+.marquee-track img {
+    height: 40px;
+    width: auto;
+    flex-shrink: 0;
 }
+
+@media (max-width: 600px) {
+    .global-marquee-container {
+        height: 60px;
+        padding: 10px 0;
+    }
+
+    .marquee-track img {
+        height: 32px;
+    }
 }
