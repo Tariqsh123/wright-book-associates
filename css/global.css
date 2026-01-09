@@ -1464,11 +1464,12 @@ header .navbar ul li.services_dropdown .dropdown li a {
 
 @media (max-width: 600px) {
     .global-marquee-container {
-        height: 60px;
+        height: 50px;
         padding: 10px 0;
+        padding-bottom: 0;
     }
 
     .marquee-track img {
-        height: 32px;
+        height: 30px;
     }
 }
