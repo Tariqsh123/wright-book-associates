@@ -320,6 +320,53 @@
 </div>
 
 
+<!-- marquee Wrapper global -->
+<div class="global-marquee-container">
+  <div class="marquee-track">
+    <img src="images/amazon-kindle.webp" alt="">
+    <img src="images/Barnes&Noble.png" alt="">
+    <img src="images/Rakuten-Kobo-logo.png" alt="">
+    <img src="images/Lulu-logo.png" alt="">
+    <img src="images/Google-Books.png" alt="">
+    <img src="images/IngramSpark.jpg" alt="">
+    
+    <!-- duplicate for seamless loop -->
+    <img src="images/amazon-kindle.webp" alt="">
+    <img src="images/Barnes&Noble.png" alt="">
+    <img src="images/Rakuten-Kobo-logo.png" alt="">
+    <img src="images/Lulu-logo.png" alt="">
+    <img src="images/Google-Books.png" alt="">
+    <img src="images/IngramSpark.jpg" alt="">
+  </div>
+</div>
+<script>
+const track = document.getElementById("marqueeTrack");
+
+let position = 0;
+let speed = 0.5; // control speed here
+let trackWidth;
+
+function updateWidth() {
+  trackWidth = track.scrollWidth / 2;
+}
+
+updateWidth();
+window.addEventListener("resize", updateWidth);
+
+function animate() {
+  position -= speed;
+
+  if (Math.abs(position) >= trackWidth) {
+    position = 0; // seamless loop (NO JUMP)
+  }
+
+  track.style.transform = `translate3d(${position}px, 0, 0)`;
+  requestAnimationFrame(animate);
+}
+
+animate();
+</script>
+
 <!-- SCRIPTS -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"  ></script>
 
