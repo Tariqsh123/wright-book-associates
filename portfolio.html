@@ -98,7 +98,7 @@
         </div>
     </header>
     
-
+<!-- 
 <section class="portfolio-section" style="margin-top: 150px;">
   <div class="portfolio-container">
     <h2 class="portfolio-heading">Portfolio Gallary</h2>
@@ -114,7 +114,95 @@
     </div>
   </div>
  
+</section> -->
+
+
+
+<section class="portfolio-header-section" id="portfolio-header-main" style="margin-top: 120px;">
+    <h1>Book Cover Designers UK</h1>
+    <p>
+        Our professional book cover designers in the UK create visually stunning
+        and market-ready covers that capture attention and tell your story at first glance.
+    </p>
+
+    <div class="portfolio-header-gallery">
+        <img src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3MlMjBvbiUyMGElMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        <img src="https://images.pexels.com/photos/4372319/pexels-photo-4372319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <img src="https://thumbs.dreamstime.com/b/woman-blue-sweater-holding-pile-books-her-hands-364626289.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6OH_xAB1QTOOXhiTytC0bfAv0Gl9YbA0KpA&s" alt="">
+        <img src="https://st3.depositphotos.com/13479594/17015/i/450/depositphotos_170150070-stock-photo-a-womans-hand-chooses-a.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpE4FvPh2PRFVLb2bBwwcN3Lqmc5zm-gSgBA&s" alt="">
+    </div>
 </section>
+
+<div class="gallary-main-container">
+
+    <div class="gallary-item">
+        <img src="images/slider-img1.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="images/slider-img2.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="images/slider-img3.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="images/slider-img4.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="images/slider-img5.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="images/slider-img6.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="images/slider-img7.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+</div>
+
+<!-- Lightbox -->
+<div class="gallary-lightbox" id="gallaryLightbox">
+    <span class="gallary-close">&times;</span>
+    <img id="gallaryLightboxImg" src="">
+</div>
+<script>
+    const galleryItems = document.querySelectorAll(".gallary-item");
+    const lightbox = document.getElementById("gallaryLightbox");
+    const lightboxImg = document.getElementById("gallaryLightboxImg");
+    const closeBtn = document.querySelector(".gallary-close");
+
+    galleryItems.forEach(item => {
+        item.addEventListener("click", function(){
+            const img = this.querySelector("img");
+            lightbox.style.display = "flex";
+            lightboxImg.src = img.src;
+        });
+    });
+
+    closeBtn.addEventListener("click", function(){
+        lightbox.style.display = "none";
+    });
+
+    lightbox.addEventListener("click", function(e){
+        if(e.target === lightbox){
+            lightbox.style.display = "none";
+        }
+    });
+</script>
 
 
 
