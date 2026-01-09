@@ -1017,10 +1017,13 @@ header .navbar ul li.services_dropdown .dropdown li a {
 .whats-second-right-image{
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .whats-second-right-image img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   object-fit: contain;
 }
 
