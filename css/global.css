@@ -1433,17 +1433,16 @@ header .navbar ul li.services_dropdown .dropdown li a {
 /* Global Marquee Container */
 .global-marquee-container {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    bottom: 20px;
+    left: 5%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px gray;
+    width: 90%;
     height: 60px;
-
     background: #fff3f3;
     overflow: hidden;
     z-index: 9999;
-
     padding: 10px 0;
-
     transform: translateZ(0);
     backface-visibility: hidden;
 }
