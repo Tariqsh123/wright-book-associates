@@ -624,7 +624,7 @@
 /* Success Section */
 .success-section-main {
     width: 100%;
-    background-color: #105148;
+    background-color: #dff1e3;
     padding: 100px 20px;
 }
 
@@ -641,7 +641,7 @@
 /* LEFT */
 .success-left {
     width: 55%;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .success-left h2 {
@@ -652,13 +652,13 @@
 }
 
 .success-left h2 span {
-    color: #d0ff71;
+    color: #004d43;
 }
 
 .success-left p {
     font-size: 16px;
     line-height: 1.8;
-    color: #dcdcdc;
+    /* color: #dcdcdc; */
     margin-bottom: 40px;
 }
 
@@ -676,18 +676,18 @@
 
 .contact-item i {
     font-size: 30px;
-    color: #d0ff71;
+    color: #004d43;
 }
 
 .contact-item strong {
     display: block;
     font-size: 18px;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .contact-item span {
     font-size: 14px;
-    color: #cfcfcf;
+    /* color: #cfcfcf; */
 }
 
 /* RIGHT */
@@ -1396,7 +1396,7 @@ header .navbar ul li.services_dropdown .dropdown li a {
  .extra_design .col-md-5 .sec_right .img img{
     position: relative;
     bottom: 00px;
-    right: 50px;
+    right: 0px;
 }   
 }
 .roadmap-image-container {
